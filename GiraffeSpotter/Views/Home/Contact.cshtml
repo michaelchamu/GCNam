@@ -2,7 +2,7 @@
 <link href="~/Content/AdminLayout/css/font-awesome.min.css" rel="stylesheet" />
 <link href="~/Content/AdminLayout/css/ionicons.min.css" rel="stylesheet" />
 <div class="row">
-    <div class=" col-md-4 col-md-offset-2">
+    <div class=" col-md-5 col-md-offset-4">
         <div class="panel panel-gold" style="border-color: #636363;">
             <div class="panel-heading">
                 <h2 align="center"><strong></strong> GET IN TOUCH
@@ -25,7 +25,7 @@
             </div>
         </div>
     </div>
-    <div class=" col-md-4">
+    @*<div class=" col-md-4">
         <div class="panel panel-gold" style="border-color: #636363;">
             <div class="panel-heading">
                 <h2 align="center"><strong></strong> SEND US A MESSAGE</h2>
@@ -88,7 +88,7 @@
                             @Html.TextAreaFor(model => model.Body, new { @class = "form-control", placeholder = "Your message to GCF", style="resize:vertical;" })
                             @*<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>*@
                         </div>
-                        <strong>
+                        @*<strong>
                             <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Body)</p>
                         </strong>
                     </div>
@@ -96,7 +96,7 @@
                 }
             </div>
         </div>
-    </div>
+    </div>*@
 </div>
 
 @section Scripts {
