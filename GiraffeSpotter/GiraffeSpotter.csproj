@@ -524,13 +524,12 @@
     <Content Include="Images\footerImages\Logo2.png" />
     <Content Include="Images\footerImages\Logo3.png" />
     <Content Include="Images\footerImages\Logo4.png" />
-    <Content Include="Images\footerImages\Logo5.png" />
     <Content Include="Images\footerImages\Logo6.png" />
     <Content Include="Images\g1Croped.png" />
     <Content Include="Images\g2Croped.jpg" />
     <Content Include="Images\g3Croped.jpg" />
     <Content Include="Images\g4Croped.jpg" />
-    <Content Include="Images\GCF logo.jpg" />
+    <Content Include="Images\gcf logo_color_text.png" />
     <Content Include="Images\Giraffe observations2 %28c%29 Zambia Carnivore Project.jpg" />
     <Content Include="Images\Giraffe spotting %28c%29 GCF.jpg" />
     <Content Include="Images\GiraffePin2.png" />
@@ -577,7 +576,7 @@
     <Content Include="Images\Learn\TG South Luangwa NP Zamibia2 %28c%29 Julie Maher.jpg" />
     <Content Include="Images\Learn\WAG Niger %28c%29 Julian Fennessy.jpg" />
     <Content Include="Images\logo_gcf_horizontal.png" />
-    <Content Include="Images\Logo_Resized.png" />
+    <Content Include="Images\logo_top.png" />
     <Content Include="Images\nav.png" />
     <Content Include="Images\nav_thumbs.png" />
     <Content Include="Images\pattern.png" />
