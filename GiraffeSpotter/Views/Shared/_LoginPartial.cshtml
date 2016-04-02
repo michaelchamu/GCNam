@@ -1,0 +1,25 @@
+﻿<ul class="navbar-nav nav navbar-right">
+  <li class="dropdown">
+    @{        
+        if (Request.IsAuthenticated){
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> @User.Identity.Name <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                  <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+                  <li>@Html.ActionLink("Manage Profile", "Manage", "Account")</li>
+              </ul>
+
+              using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new {@id = "logoutForm"}))
+              {
+                @Html.AntiForgeryToken();
+              }
+        } else
+        {
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>Account <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+              <li>@Html.ActionLink("Register", "Register", "Account", null, new {@id = "registerLink"})</li>
+              <li>@Html.ActionLink("Log in", "Login", "Account", null,new {@id = "loginLink"})</li>
+          </ul>
+        }
+    }
+  </li>
+</ul>

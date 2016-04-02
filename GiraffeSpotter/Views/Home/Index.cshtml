@@ -1,0 +1,129 @@
+﻿<!-- Carousel
+================================================== -->
+<div class="page-header">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-3">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+                @*---------------Image Slides Begin--------------*@
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img alt="img1" src="/Images/g1Croped.png">
+                    </div>
+                    <div class="item">
+                        <img alt="img2" src="/Images/g2Croped.jpg">
+                    </div>
+                    <div class="item">
+                        <img alt="img3" src="/Images/g3Croped.jpg">
+                    </div>
+                    <div class="item">
+                        <img alt="img4" src="/Images/g4Croped.jpg">
+                    </div>
+                </div>
+                @*---------------Image Slides End-----------------*@
+            </div> 
+        </div>
+
+     
+    <!-- /.carousel -->
+    <br />
+        <br />
+         <div class="row">
+            
+            <div class="col-md-4 col-md-offset-4">
+                @{if(User.Identity.IsAuthenticated)
+                  {
+                  <br /><a class="btn btn-md btn-safari btn-block" target="_blank" href="~/Observation/CreateLandingPage">Add observation</a>
+                  }else
+                  {
+                 <br /> <a class="btn btn-md btn-safari btn-block" target="_blank" href="~/Account/Login">Add observation</a>
+                }
+                  }
+        </div></div>
+    <div class="container">
+        @*<div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <a class="btn btn-safari btn-lg btn-block" href="~/Account/Register">
+                    <p>Participate: Become a Citizen Scientist</p>
+                </a>
+            </div>
+        </div>*@
+       
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Become a Citizen Scientist</h3>
+                <p style="text-align:justify;">
+                    Simply by adding your observation and photo on <strong>GiraffeSpotter</strong> you are contributing to giraffe conservation in Africa. 
+            Your observation is helping to build the first-ever detailed assessment of giraffe in the wild.
+                </p>
+                <a class="btn btn-safari btn-md btn-block" href="~/Account/Register">
+                    Participate: Become a Citizen Scientist
+                </a>
+            </div>
+            <div class="col-md-4">
+                <h3>Become a giraffe advocate in your community</h3>
+                <p style="text-align:justify;">
+                    Despite being the most recognisable and popular wild animal in Africa (if not the world), giraffe numbers are plummeting across the continent and this is happening largely unnoticed. 
+                    Tell your family, friends, colleagues and community about the plight of giraffe. You will find a lot of background information on the <a href="http://www.giraffeconservation.org" target="_blank">GCF</a> website, including our conservation <a href="http://www.giraffeconservation.org/booklets.php" target="_blank">booklet</a> and our conservation <a href="http://http://www.giraffeconservation.org/posters.php" target="_blank">poster series</a>. 
+                    Help us spread the message about the plight of giraffe so you will still see giraffe on your next safari!
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3>Donate to GCF</h3>
+                <p style="text-align:justify;">
+                    The Giraffe Conservation Foundation (GCF) is the only charitable foundation dedicated solely to the conservation and management of giraffe in the wild. 
+           GCF has developed this website with the help of a dedicated group of African students at the <a href="http://www.polytechnic.edu.na" target="_blank">Polytechnic of Namibia</a>. 
+           We depend on the support of our partners and individuals to manage and continuously improve this website as well as to implement projects to conserve and manage giraffe populations in the wild. Any donation, no matter how small, makes a difference and we promise that we will put it to good use!
+           
+                </p>
+                
+                <a target="_blank" class="btn btn-md btn-safari btn-block" href="http://www.giraffeconservation.org/donate.php">Donate Now</a>
+            </div>
+        </div>
+
+        <div class="row">
+           <div class="col-md-4">
+                <h3>Recruit other Citizen Scientists</h3>
+                <p style="text-align:justify;">
+                    Do you have friends and family who also like going on safari? Do you know any tour operators or tour guides? 
+                    Do you or someone you know work in or own a game reserve or park? 
+                    Tell them about <strong>GiraffeSpotter</strong> and encourage them to get involved too.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3>Organise a long-term giraffe monitoring project</h3>
+                <p style="text-align:justify;">
+                    Are you interested in taking your citizen science to the next level by tracking a giraffe population over time? 
+                    Contact us at <a href="http://www.giraffeconservation.org" target="_blank">GCF</a> to learn more.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3>Buy some GCF or World Giraffe Day merchandise</h3>
+                <p style="text-align:justify;">
+                    GCF has developed a whole range of great merchandise items. 
+                    A percentage of all purchases goes directly to supporting giraffe conservation in the wild. 
+                    
+                </p>
+                
+                <a class="btn btn-md btn-safari btn-block" target="_blank" href="http://www.cafepress.com/giraffeconservation">GCF SHOP</a>
+            </div>
+
+        </div>
+    </div>
+        </div>
+        </div>
+
+@section Scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var currentPage = document.getElementById("li1");
+            currentPage.className = "active";
+        });
+    </script>
+}

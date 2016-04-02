@@ -1,0 +1,369 @@
+﻿@model GiraffeSpotter.Models.RegisterModel
+
+
+@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { enctype = "multipart/form-data"}))
+{
+    @Html.ValidationSummary(true)
+    @Html.AntiForgeryToken()
+
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2" style="background-image: url('/Images/Register_Image.jpg'); height: 500px; background-repeat: no-repeat;">
+            <div class="row centered-form">
+                <div class="col-xs-12 col-sm-8 col-md-7 col-md-offset-5" style="padding-left: 0px; padding-right: 0px;">
+                    <div class="panel panel-grey" style="border-color: black;">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" align="center">Enter Registration Details</h3>
+                        </div>
+                        <div class="panel-body" style="height: 459px;">
+                            <form role="form">
+                                @*
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-picture"></span></span>
+                                       
+                                        @Html.TextBoxFor(m => m.image, null, new { @class = "form-control input-md", type = "file", accept = "image/*" })
+                                    </div>
+                                    <strong>@Html.ValidationMessageFor(m => m.image)</strong>
+                                </div>
+                                *@
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                        @Html.TextBoxFor(m => m.UserName, null, new { @class = "form-control input-md", placeholder = "Username" })
+                                    </div>
+                                    <strong>@Html.ValidationMessageFor(m => m.UserName)</strong>
+                                </div>
+                                @*
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><span class="glyphicon glyphicon-font"></span></span>
+                                                @Html.TextBoxFor(m => m.Firstname, null, new { @class = "form-control input-md", placeholder = "First Name" })
+                                            </div>
+                                            <strong>@Html.ValidationMessageFor(m => m.Firstname)</strong>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><span class="glyphicon glyphicon-font"></span></span>
+                                                @Html.TextBoxFor(m => m.Lastname, null, new { @class = "form-control input-md", placeholder = "Last Name" })
+                                            </div>
+                                            <strong>@Html.ValidationMessageFor(m => m.Lastname)</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><span class="glyphicon glyphicon-tower"></span></span>
+                                              
+                                                
+                                            
+                                               @Html.DropDownListFor(m => m.nationality, new SelectList(new List<Object>{ 
+                                              new{value="AF",text= "Afghan"},
+  new{value="AL",text= "Albanian"},
+  new{ value="DZ",text= "Algerian"},
+   new{value="AS",text= "American"},
+  new{ value="AD",text= "Andorran"},
+  new{ value="AO",text= "Angolan"},
+   new{value="AI",text= "Anguilla"},
+  new{ value="AQ",text= "Antarctica"},
+  new{ value="AG",text= "Antiguan"},
+ new {value="AR",text= "Argentinean"},
+  new{ value="AM",text= "Armenian"},
+  new{ value="AW",text= "Aruban"},
+ new{  value="AU",text= "Australian"},
+  new{ value="AT",text= "Austrian"},
+  new{ value="AZ",text= "Azeri"},
+ new{  value="BH",text= "Bahraini"},
+  new{ value="BD",text= "Bangladeshi"},
+  new{ value="BB",text= "Barbadian"},
+   new{value="BY",text= "Belarusian"},
+   new{value="BE",text= "Belgian"},
+  new{ value="BZ",text= "Belizean"},
+   new{value="BJ",text= "Beninese"},
+   new{value="BM",text= "Bermuda"},
+    new{value="BT",text= "Bhutan"},
+  new{value="BO",text= "Bolivian"},
+  new{value="BA",text= "Bosnia and Herzegovina"},
+ new{value="BW",text= "Batswana"},
+ new{value="BV",text= "Bouvet Island"},
+  new{value="BR",text= "Brazilian"},
+ new{value="IO",text= "British"},
+  new{value="VG",text= "British"},
+  new{value="BN",text= "Bruneian"},
+   new{value="BG",text= "Bulgarian"},
+   new{value="BF",text= "Burkinabe"},
+   new{value="BI",text= "Burundian"},
+   new{value="CI",text= "Côte d\'Ivoire"},
+   new{value="KH",text= "Cambodian"},
+   new{value="CM",text= "Cameroonian"},
+   new{value="CA",text= "Canadian"},
+   new{value="CV",text= "Cape Verdean"},
+   new{value="KY",text= "Cayman Islands"},
+   new{value="CF",text= "Central African"},
+   new{value="TD",text= "Chadian"},
+   new{value="CL",text= "Chilean"},
+   new{value="CN",text= "Chinese"},
+   new{value="CX",text= "Christmas Island"},
+   new{value="CC",text= "Cocos (Keeling) Islands"},
+   new{value="CO",text= "Colombia"},
+   new{value="KM",text= "Comoran"},
+   new{value="CG",text= "Congolese"},
+   new{value="CK",text= "Cook Islands"},
+   new{value="CR",text= "Costa Rican"},
+   new{value="HR",text= "Croatian"},
+   new{value="CU",text= "Cuban"},
+   new{value="CY",text= "Cypriot"},
+   new{value="CZ",text= "Czech"},
+   new{value="CD",text= "Congolese (DRC)"},
+   new{value="DK",text= "Danish"},
+   new{value="DJ",text= "Djibouti"},
+   new{value="DM",text= "Dominican"},
+   new{value="DO",text= "Dominican Republic"},
+   new{value="TP",text= "East Timorese"},
+   new{value="EC",text= "Ecuadorian"},
+   new{value="EG",text= "Egyptian"},
+   new{value="SV",text= "El Salvadorian"},
+   new{value="GQ",text= "Equatorial Guinea"},
+   new{value="ER",text= "Eritrean"},
+   new{value="EE",text= "Estonian"},
+   new{value="ET",text= "Ethiopian"},
+   new{value="FO",text= "Faeroe Islands"},
+   new{value="FK",text= "British(Falkland Islands)"},
+   new{value="FJ",text= "Fijian"},
+   new{value="FI",text= "Finnish"},
+   new{value="MK",text= "Macedonian"},
+   new{value="FR",text= "French"},
+   new{value="FX",text= "France, Metropolitan"},
+   new{value="GF",text= "French Guiana"},
+   new{value="PF",text= "French Polynesia"},
+   new{value="TF",text= "French Southern Territories"},
+   new{value="GA",text= "Gabonese"},
+   new{value="GE",text= "Georgian"},
+   new{value="DE",text= "German"},
+   new{value="GH",text= "Ghanaian"},
+   new{value="GI",text= "Gibraltar"},
+   new{value="GR",text= "Greek"},
+   new{value="GL",text= "Greenland"},
+   new{value="GD",text= "Grenadiana"},
+   new{value="GP",text= "Guadeloupe"},
+   new{value="GU",text= "Guam"},
+   new{value="GT",text= "Guatemalan"},
+   new{value="GN",text= "Guinean"},
+   new{value="GW",text= "Guinea-Bissauan"},
+   new{value="GY",text= "Guyanese"},
+   new{value="HT",text= "Haitian"},
+   new{value="HM",text= "Heard and Mc Donald Islands"},
+   new{value="HN",text= "Honduran"},
+   new{value="HK",text= "Hong Kong"},
+ new{value="HU",text= "Hungarian"},
+   new{value="IS",text= "Icelander"},
+   new{value="IN",text= "Indian"},
+   new{value="ID",text= "Indonesian"},
+   new{value="IR",text= "Iranian"},
+   new{value="IQ",text= "Iraqi"},
+   new{value="IE",text= " Irish"},
+   new{value="IL",text= " Israeli"},
+   new{value="IT",text= " Italian"},
+   new{value="JM",text= " Jamaican"},
+   new{value="JP",text= " Japanese"},
+   new{value="JO",text= " Jordanian"},
+   new{value="KZ",text= " Kazakhstani"},
+   new{value="KE",text= " Kenyan"},
+   new{value="KI",text= " Kiribati"},
+   new{value="KW",text= " Kuwaiti"},
+   new{value="KG",text= " Kyrgyzstani"},
+ new{value="LA",text= " Laotian"},
+   new{value="LV",text= " Latvian"},
+   new{value="LB",text= " Lebanese"},
+   new{value="LS",text= " Mosotho"},
+   new{value="LR",text= " Liberian"},
+   new{value="LY",text= " Libyan"},
+   new{value="LI",text= " Liechtensteiner"},
+   new{value="LT",text= " Lithuanian"},
+   new{value="LU",text= " Luxembourger"},
+   new{value="MO",text= " Macau"},
+ new{value="MG",text= " Madagascar"},
+   new{value="MW",text= " Malawian"},
+   new{value="MY",text= " Malaysian"},
+   new{value="MV",text= " Maldives"},
+   new{value="ML",text= " Malian"},
+   new{value="MT",text= " Maltese"},
+   new{value="MH",text= " Marshallese"},
+   new{value="MQ",text= " Martinique"},
+   new{value="MR",text= " Mauritanian"},
+   new{value="MU",text= " Mauritian"},
+   new{value="YT",text= " Mayotte"},
+   new{value="MX",text= " Mexican"},
+   new{value="FM",text= " Micronesian"},
+   new{value="MD",text= " Moldovan"},
+   new{value="MC",text= " Monacan"},
+   new{value="MN",text= " Mongolian"},
+   new{value="ME",text= " Montenegro"},
+   new{value="MS",text= " Montserrat"},
+   new{value="MA",text= " Moroccan"},
+   new{value="MZ",text= " Mozambican"},
+   new{value="MM",text= " Myanmar"},
+   new{value="NA",text= " Namibian"},
+   new{value="NR",text= " Nauru"},
+   new{value="NP",text= " Nepalese"},
+   new{value="NL",text= " Dutch"},
+   new{value="AN",text= " Netherlands Antilles"},
+   new{value="NC",text= " New Caledonia"},
+   new{value="NZ",text= " New Zealander"},
+   new{value="NI",text= " Nicaraguan"},
+   new{value="NE",text= " Nigerien"},
+   new{value="NG",text= " Nigerian"},
+   new{value="NU",text= " Niue"},
+   new{value="NF",text= " Norfolk Island"},
+   new{value="KP",text= " North Korean"},
+   new{value="MP",text= " Northern Marianas"},
+   new{value="NO",text= " Norweigian"},
+   new{value="OM",text= " Omani"},
+   new{value="PK",text= " Pakistani"},
+   new{value="PW",text= " Palauan"},
+   new{value="PS",text= " Palestinian"},
+   new{value="PA",text= " Panaman"},
+   new{value="PG",text= " Papua New Guinean"},
+   new{value="PY",text= " Paraguayan"},
+   new{value="PE",text= " Peruvian"},
+   new{value="PH",text= " Philippino"},
+   new{value="PN",text= " Pitcairn Islands"},
+   new{value="PL",text= " Polish"},
+   new{value="PT",text= " Portuguese"},
+   new{value="PR",text= " Puerto Rican"},
+   new{value="QA",text= " Qatari"},
+   new{value="RE",text= " Reunion"},
+   new{value="RO",text= " Romanian"},
+   new{value="RU",text= " Russian"},
+   new{value="RW",text= " Rwandan"},
+   new{value="ST",text= " São Toméan"},
+   new{value="SH",text= " Saint Helena"},
+   new{value="PM",text= " St. Pierre and Miquelon"},
+   new{value="KN",text= " Saint Kitts and Nevis"},
+   new{value="LC",text= " Saint Lucia"},
+   new{value="VC",text= " Saint Vincent and the Grenadines"},
+   new{value="WS",text= " Samoan"},
+   new{value="SM",text= " San Marino"},
+   new{value="SA",text= " Saudi Arabian"},
+   new{value="SN",text= " Senegalese"},
+   new{value="RS",text= " Serbian"},
+   new{value="SC",text= " Seychellois"},
+   new{value="SL",text= " Sierra Leonean"},
+   new{value="SG",text= " Singaporean"},
+   new{value="SK",text= " Slovakian"},
+   new{value="SI",text= " Slovenian"},
+   new{value="SB",text= " Solomon Islands"},
+   new{value="SO",text= " Somali"},
+   new{value="ZA",text= " South African"},
+   new{value="GS",text= " South Georgia and the South Sandwich Islands"},
+   new{value="KR",text= " South Korean"},
+   new{value="ES",text= " Spanish"},
+   new{value="LK",text= " Sri Lankan"},
+   new{value="SD",text= " Sudanese"},
+   new{value="SR",text= " Surinamer"},
+   new{value="SJ",text= " Svalbard and Jan Mayen Islands"},
+   new{value="SZ",text= " Swazi"},
+   new{value="SE",text= " Swedish"},
+   new{value="CH",text= " Swiss"},
+   new{value="SY",text= " Syrian"},
+ new{value="TW",text= " Taiwanese"},
+   new{value="TJ",text= " Tajiki"},
+   new{value="TZ",text= " Tanzanian"},
+   new{value="TH",text= " Thai"},
+   new{value="BS",text= " The Bahamas"},
+   new{value="GM",text= " The Gambia"},
+   new{value="TG",text= " Togolese"},
+   new{value="TK",text= " Tokelau"},
+   new{value="TO",text= " Tongan"},
+   new{value="TT",text= " Trinidad and Tobago"},
+   new{value="TN",text= " Tunisian"},
+   new{value="TR",text= " Turkish"},
+   new{value="TM",text= " Turkmenistan"},
+   new{value="TC",text= " Turks and Caicos Islands"},
+   new{value="TV",text= " Tuvaluan"},
+   new{value="VI",text= " US Virgin Islands"},
+   new{value="UG",text= " Ugandan"},
+   new{value="UA",text= " Ukrainian"},
+   new{value="AE",text= " United Arab Emirates"},
+   new{value="GB",text= " British"},
+   new{value="US",text= " American"},
+   new{value="UM",text= " United States Minor Outlying Islands"},
+   new{value="UY",text= " Uruguayan"},
+   new{value="UZ",text= " Uzbekistani"},
+   new{value="VU",text= " Vanuatu"},
+   new{value="VA",text= " Vatican City"},
+   new{value="VE",text= " Venezuelan"},
+   new{value="VN",text= " Vietnamese"},
+   new{value="WF",text= " Wallis and Futuna Islands"},
+   new{value="EH",text= " Western Sahara"},
+   new{value="YE",text= " Yemenite"},
+   new{value="ZM",text= " Zambian"},
+   new{value="ZW",text= " Zimbabwean"}  },"value", "text", 1), new { @class = "form-control input-md", placeholder = "Nationality"})
+                                            </div>
+                                            <strong>@Html.ValidationMessageFor(m => m.nationality)</strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><span class="glyphicon glyphicon-warning-sign"></span></span>
+                                                @Html.DropDownListFor(m => m.Role, new SelectList(new List<Object> { new{value="Citizen Scientist", text="Citizen Scientist"}}, "value", "text", 2), new { @class = "form-control input-md" })
+                                                 </div>
+                                            <strong>@Html.ValidationMessageFor(m => m.Role)</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                *@
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                                        @Html.TextBoxFor(m => m.Email, null, new { @class = "form-control input-md", placeholder = "Email" })
+                                    </div>
+                                    <strong>@Html.ValidationMessageFor(m => m.Email)</strong>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><span class="glyphicon glyphicon-eye-close"></span></span>
+                                                @Html.PasswordFor(m => m.Password, new { @class = "form-control input-md", placeholder = "Password" })
+                                            </div>
+                                            <strong>@Html.ValidationMessageFor(m => m.Password)</strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><span class="glyphicon glyphicon-retweet"></span></span>
+                                                @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control input-md", placeholder = "Confirm Password" })
+                                            </div>
+                                            <strong>@Html.ValidationMessageFor(m => m.ConfirmPassword)</strong>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <input type="submit" value="Create Account" class="btn btn-safari btn-lg btn-block">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<br />
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+
+}

@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Giraffe Spotter</title>
+    <link href="~/title.png" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+
+    @Styles.Render("~/Content/bootstrap.css")
+    @Styles.Render("~/Content/themes/base/jquery-ui.css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/Scripts/gridmvc.min.js")
+    @Scripts.Render("~/Scripts/jquery-2.0.3.min.js")
+
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="~/Content/AdminLayout/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/AdminLayout/css/landing-page.css" rel="stylesheet" />
+
+    <link href="~/Content/NavBarCustom.css" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/bootstrap.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/Gridmvc.css")" rel="stylesheet" />
+    <script type="text/javascript" src="/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <link href="/Content/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/bootstrap-datepicker.css">
+    <script src="~/Scripts/Game/jquery.jqpuzzle.full.js"></script>
+    @*<script src="~/Scripts/Game/jquery.jqpuzzle.min.js"></script>*@
+    <link href="~/Content/Game/jquery.jqpuzzle.css" rel="stylesheet" />
+  @*  <script src="~/Scripts/Game/jquery.js"></script>*@
+    <script src="/Scripts/bootstrap-datepicker.js"></script>
+
+
+</head>
+<body>
+
+    <!-- NAVBAR
+        ================================================== -->
+    <div class="row">
+        <div class="col-md-8 col-xs-12 col-md-offset-2">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="~/Home/Index">
+                        <img alt="img3" src="~/Images/Logo_Resized.png"></a>
+                </div>
+                <div class="col-md-10">
+                    <div class="navbar-wrapper">
+                        <div class="navbar navbar-custom navbar-static-top" role="navigation">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav">
+                                    <li id="li1"><a href="/Home/Index">Home</a></li>
+                                    @{
+                                        if (Request.IsAuthenticated)
+                                        {
+                                            if (Roles.GetRolesForUser(@User.Identity.Name).Contains("Citizen Scientist") || Roles.GetRolesForUser(@User.Identity.Name).Contains("Game Farmer"))
+                                            {
+@*<div class="col-md-4 col-md-offset-4">
+                                                        <a class="btn btn-lg btn-safari form-control">Add Observation</a>
+                                                    </div>*@
+                                     
+                                                }
+                                                if (Roles.GetRolesForUser(@User.Identity.Name).Contains("Admin"))
+                                                {
+                                        <li><a href="~/Admin/Index">Control panel</a></li>
+                                             }
+                                                if (Roles.GetRolesForUser(@User.Identity.Name).Contains("Citizen Scientist"))
+                                                {
+@*<li id="li6"><a href="/Observation/ObservationHome">Observations</a></li>*@
+                                                }
+                                                if (Roles.GetRolesForUser(@User.Identity.Name).Contains("Game Farmer"))
+                                                {
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown">Reserves <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li id="li9"><a href="/Reserve/Index">Manage</a></li>
+                                                <li class="divider"></li>
+                                                <li class="dropdown-header">Registered Reserves</li>
+                                                <li class="divider"></li>
+                                                @{
+                                                    var reserves = (List<GiraffeSpotter.Models.Game_Reserve>)Session["DropDown"];
+
+                                                    if (reserves.Count != 0)
+                                                    {
+                                                        foreach (var item in reserves)
+                                                        {
+                                                    <li>@Html.ActionLink(item.Name, "Details", "Reserve", new { id = item.Id }, null)</li>
+                                                                    }
+                                                                }
+                                                                else
+                                                                {
+                                                    <li><a href="/Reserve/Create">Register Reserves</a></li>
+                                                                }
+                                                }
+                                            </ul>
+                                        </li>
+                                                }
+                                            }
+                                            else
+                                            {
+                                           <li class="dropdown">
+                                            <a class="dropdown-toggle" id="li50" data-toggle="dropdown">Observations<b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li id="li40"><a href="/Observation/ObservationHome">View All</a></li>
+                                                <li class="divider"></li>
+                                                <li id="li6">@Html.ActionLink("Create Observation", "CreateLandingPage", "Observation")</li>
+                                                <li class="divider"></li>
+                                                <li id="li20">@Html.ActionLink("Uganda Program", "CreateUganda", "Observation")</li>                                         
+                                            </ul>
+                                        </li>
+                                         
+                                            }
+                                             
+                                    }
+                                    <li id="li4"><a href="/Gallery/GalleryView">Gallery</a></li>
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown">Giraffe Info<b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li id="li80"><a href="~/Learn/DistrubutionMaps">Distribution map</a></li>
+                                            <li class="divider"></li>
+                                            <li id="li66"><a href="/Games/Index">Entertainment</a></li>
+                                            <li class="divider"></li>
+                                            <li id="li10"><a href="~/Learn/Index">All subspecies</a></li>
+                                            <li class="divider"></li>
+                                            <li id="li11">@Html.ActionLink("Angolan giraffe", "Angolan", "Learn")</li>
+                                            <li id="li12">@Html.ActionLink("Kordofan giraffe", "Kordan", "Learn")</li>
+                                            <li id="li13">@Html.ActionLink("Nubian giraffe", "Nubian", "Learn")</li>
+                                            <li id="li14">@Html.ActionLink("South African giraffe", "SouthAfrican", "Learn")</li>
+                                            <li id="li15">@Html.ActionLink("West African giraffe", "WestAfrican", "Learn")</li>
+                                            <li id="li16">@Html.ActionLink("Reticulated giraffe", "Reticulated", "Learn")</li>
+                                            <li id="li17">@Html.ActionLink("Rothschild’s giraffe", "Rothschild", "Learn")</li>
+                                            <li id="li18">@Html.ActionLink("Thornicroft’s giraffe", "Thornicroft", "Learn")</li>
+                                            <li id="li19">@Html.ActionLink("Masai giraffe", "Masai", "Learn")</li>
+                                        </ul>
+                                    </li>
+
+                                    <li id="li2"><a href="/Home/About">About</a></li>
+                                    <li id="li3"><a href="/Home/Contact">Contact</a></li>
+
+                                </ul>
+                                @Html.Partial("_LoginPartial")
+                                <div class="col-md-1 col-xs-0 col-sm-0"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @*<div class="page-header">*@
+    <div>
+        @RenderSection("featured", required: false)
+        @RenderBody()
+    </div>
+
+
+
+    @Scripts.Render("~/Scripts/bootstrap.js")
+    @RenderSection("scripts", required: false)
+   
+    <!--footer=========-->
+    <footer>
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="content-wrapper" style="background-color: #be9955">
+                    <p align="center">@DateTime.Now.Year GiraffeSpotter (Hosted by <a href="http://www.myASP.NET/index?r=100178919" target="_blank">MyAsp.Net</a>)</p>
+                </div>
+                <div class="col-md-1 col-xs-12">
+                </div>
+                <div class="col-md-1 col-xs-12">
+                </div>
+                <div class="col-md-1 col-xs-12">
+                </div>
+                <div class="col-md-1 col-xs-12">
+                    <a href="http://www.giraffeconservation.org/" target="_blank">
+                        <img src="~/Images/footerImages/Logo5.png" class="col-md-12" /></a>
+                </div>
+
+                <div class="col-md-1 col-xs-12">
+                    <a href="http://www.polytechnic.edu.na/" target="_blank">
+                        <img src="~/Images/footerImages/Logo6.png" class="col-md-12" /></a>
+                </div>
+
+                <div class="col-md-1 col-xs-12">
+                    <a href="http://www.iucn.org/" target="_blank">
+                        <img src="~/Images/footerImages/Logo3.png" class="col-md-12" /></a>
+                </div>
+
+                <div class="col-md-1 col-xs-12">
+                    <a href="http://www.aucklandzoo.co.nz/" target="_blank">
+                        <img src="~/Images/footerImages/Logo1.png" class="col-md-12" /></a>
+                </div>
+
+
+                <div class="col-md-1 col-xs-12">
+                    <a href="http://www.blankparkzoo.com/" target="_blank">
+                        <img src="~/Images/footerImages/Logo2.png" class="col-md-12" /></a>
+                </div>
+
+
+                <div class="col-md-1 col-xs-12">
+                    <img src="~/Images/footerImages/Logo4.png" class="col-md-12" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

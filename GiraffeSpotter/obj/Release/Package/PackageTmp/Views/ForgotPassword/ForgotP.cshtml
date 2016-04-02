@@ -1,0 +1,45 @@
+﻿@model GiraffeSpotter.Models.ViewModels.ChangePassword
+
+<div class="row">
+    <div class=" col-md-4 col-md-offset-2">
+        <div class="panel panel-gold" style="border-color: #636363;">
+            <div class="panel-heading">
+                <h2 align="center"><strong></strong>
+                REQUEST CODE
+            </div>
+            <div class="panel-body">
+                @{
+                    if (ViewBag.Code == 1)
+                    {
+                        <div class="alert alert-success"> @ViewBag.Message </div>
+                    }
+                    else if (ViewBag.Code == 0) 
+                    {
+                        <div class="alert alert-danger"> @ViewBag.Message </div>
+                    }                    
+                }
+
+                @using (Html.BeginForm("ForgotP", "ForgotPassword", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true)
+                    
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Username</strong></span>
+                            @Html.TextBoxFor(model => model.username, null, new { @class = "form-control", placeholder = "Registered Username" })
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                        </div>
+                    </div>
+                    
+                    <br />
+                    <br />
+                    <p></p>
+                    
+                    <input type="submit" value="SEND CODE" class="btn btn-safari btn-lg btn-block">
+                }
+            </div>
+        </div>
+    </div>
+    @Html.Partial("Step2");
+</div>

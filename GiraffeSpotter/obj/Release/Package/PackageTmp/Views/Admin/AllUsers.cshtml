@@ -1,0 +1,52 @@
+﻿@model IEnumerable<GiraffeSpotter.Models.UserProfile>
+@using GridMvc.Html;
+
+
+
+<div class="container">
+    <div class="col-md-6 col-md-offset-2 pull-left">
+        <h4>All user accounts</h4>
+        <div class="input-group">
+            @Html.ActionLink("Back", "Index", null, new { @class = "btn btn-primary btn-md" })
+        </div>
+
+        <br />
+
+        @Html.Grid(Model).Columns(columns =>
+                    {
+                        
+                        columns.Add(c => c.UserName)
+                            .Titled("User name")
+                            .Filterable(true);
+                        columns.Add(c => c.Firstname)
+                            .Titled("First name")
+                            .Filterable(true);
+                        columns.Add(c => c.Lastname)
+                            .Titled("Surname")
+                            .Filterable(true);
+                        columns.Add(c => c.nationality)
+                            .Titled("Nationality")
+                            .Filterable(true);
+                      
+                        columns.Add(c => c.Role)
+                            .Titled("Account type")
+                            .Filterable(true);
+                        columns.Add()
+                            .Sanitized(false)
+                            .Encoded(false)
+                            .RenderValueAs(o => Html.ActionLink("Details", "UserDetails", "Admin", new { id = o.UserId }, new { @class = "btn btn-sm btn-safari" }).ToHtmlString());
+                        columns.Add()
+                            .Sanitized(false)
+                            .Encoded(false)
+                            .RenderValueAs(o => Html.ActionLink("Delete", "Delete", "Admin", new { id = o.UserId }, new { @class = "btn btn-sm btn-safari" }).ToHtmlString());
+                        columns.Add()
+                            .Sanitized(false)
+                            .Encoded(false)
+                            .RenderValueAs(o => Html.ActionLink("Edit", "Edit", "Admin", new { id = o.UserId }, new { @class = "btn btn-sm btn-safari" }).ToHtmlString());
+                    }).WithPaging(10).Sortable(true)
+    </div>
+</div>
+
+
+<!--Remove from below=============================================================================-->
+

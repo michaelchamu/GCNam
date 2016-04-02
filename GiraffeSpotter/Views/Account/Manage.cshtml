@@ -1,0 +1,88 @@
+﻿@model GiraffeSpotter.Models.LocalPasswordModel
+
+@{
+    ViewBag.Title = "Manage Account";
+}
+
+<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+        <hgroup class="title">
+            <h1 align="center">@ViewBag.Title</h1>
+        </hgroup>
+        <div class="panel panel-gold" align="center" style="border-color: #636363;">
+            <div class="panel-heading">
+                <h3>You're logged in as <strong>@User.Identity.Name</strong></h3>
+            </div>
+            <div class="panel-body">
+                <p class="message-success">@ViewBag.StatusMessage</p>
+
+                @{
+                    if (Model.imageBytes != null)
+                    {
+                        if (Session["pfChange"] != null)
+                        {
+                    <div class="alert alert-warning"><strong>@Session["pfChange"].ToString()</strong></div>
+                }
+                    <img src="data:image/jpg;base64,@(Html.Raw(Convert.ToBase64String(Model.imageBytes)))" alt="Profile Picture" @*height="280" width="300"*@ class="col-md-12 col-xs-12">
+                using (Html.BeginForm("pfChange", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="row">
+                        <div class="col-md-12 col-xs-12">
+                            <br />
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-picture"></span></span>
+                                    @*<input style="cursor:pointer;" type="file" name="file" id="file"/>*@
+                                    @Html.TextBoxFor(m => m.newImage, null, new { @class = "form-control input-md", type = "file", accept = "image/*", placeholder ="Select Image" })
+                                </div>
+                                <strong>@Html.ValidationMessageFor(m => m.newImage)</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" value="Change Profile Picture" class="btn btn-md btn-safari btn-block" />   
+        }
+            }
+            else
+            {
+                using (Html.BeginForm("pfChange", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <img src="~/Images/resized_fb-giraffe.jpg" alt="Profile Picture" @*height="280" width="300"*@ class="col-md-12 col-xs-12">
+                    <strong>You are currently on the default Profile Picture!</strong>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-picture"></span></span>
+                            @*<input style="cursor:pointer;" type="file" name="file" id="file"/>*@
+                            @Html.TextBoxFor(m => m.newImage, null, new { @class = "form-control input-md", type = "file", accept = "image/*" })
+                        </div>
+                        <strong>@Html.ValidationMessageFor(m => m.newImage)</strong>
+                    </div>
+                    <input type="submit" value="Change Profile Picture" class="btn btn-md btn-safari btn-block" />
+                }
+    }
+            Session.Remove("pfChange");
+                }
+
+                @if (ViewBag.HasLocalPassword)
+                {
+                    @Html.Partial("_ChangePasswordPartial")
+        }
+                else
+                { 
+                    @Html.Partial("_SetPasswordPartial")
+        }
+            </div>
+        </div>
+    </div>
+</div>
+@*<section id="externalLogins">
+    @Html.Action("RemoveExternalLogins")
+
+    <h3>Add an external login</h3>
+    @Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
+</section>*@
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

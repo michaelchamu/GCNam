@@ -1,0 +1,143 @@
+﻿@model GiraffeSpotter.Models.Observation
+
+<h2 align="center">Take Action: Create Observation (Step 1)</h2>
+
+<div class="row">
+    @using (Ajax.BeginForm("Create", "Observation", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "result1", OnSuccess = "disablebtn()" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        <input type="hidden" name="origin" value="1" />
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+            <div class="login-panel panel-grey">
+                <div class="panel-heading">
+                    <h1 class="panel-title" align="center">Enter Observation Information</h1>
+                </div>
+                <div class="panel-body" style="padding: 0px;">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Date of Observation </strong></span>
+                            @Html.TextBoxFor(model => model.Date_of_Observation, null, new { @class = "form-control", @id = "datepicker", placeholder = "Date of Submission" })
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                        </div>
+                        <strong>
+                            <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Date_of_Observation)</p>
+                        </strong>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Subspecies &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</strong></span>
+                            @*@Html.TextBoxFor(model => model.Sub_Species, null, new { @class = "form-control"})*@
+                            @Html.DropDownListFor(model => model.Sub_Species,new SelectList(
+                            new List<Object>{
+                            new{value="G. c. rothschildi",text="Rothschild's (G. c. rothschildi)"}
+                            },"value", "text", 10), new { @class = "form-control"})
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-tags"></span></span>
+                        </div>
+                        <strong>
+                            <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Sub_Species)</p>
+                        </strong>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Male giraffe &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</strong></span>
+                            @Html.TextBoxFor(model => model.No_of_Male, new { @class = "form-control", @id = "No_Males", type = "number", onchange = "myFunction()" })
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-plus"></span></span>
+                        </div>
+                        <strong>
+                            <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.No_of_Male)</p>
+                        </strong>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Female giraffe &nbsp &nbsp &nbsp &nbsp &nbsp</strong></span>
+                            @Html.TextBoxFor(model => model.No_of_Female, new { @class = "form-control", @id = "No_Females", type = "number", onchange = "myFunction()" })
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-plus"></span></span>
+                        </div>
+                        <strong>
+                            <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.No_of_Female)</p>
+                        </strong>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Group Size &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</strong></span>
+                            @Html.TextBoxFor(model => model.Group_Size, new { @class = "form-control", @id = "total", type = "number" })
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-transfer"></span></span>
+                        </div>
+                        <strong>
+                            <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Group_Size)</p>
+                        </strong>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Comment&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</strong></span>
+                            @Html.TextAreaFor(model => model.Comment, new { @class = "form-control" , placeholder="Optional brief description of giraffe activity and/ or location"})
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-comment"></span></span>
+                        </div>
+                        <strong>
+                            <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Comment)</p>
+                        </strong>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                           @* <span class="input-group-addon"><strong>Date of Submission &nbsp</strong></span>*@
+                            @Html.HiddenFor(model => model.Date_of_Submission@*, null, new { @class = "form-control", @id = "datepicker2", placeholder = "Date of Submission"} *@)
+                           @* <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>*@
+                       
+                        </div>
+                        <strong>
+                            <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Date_of_Submission)</p>
+                        </strong>
+                    </div>
+                    <input id="btn-observation" type="submit" value="Next Step" class="btn btn-safari btn-md btn-block"/>
+                </div>
+            </div>
+        </div>    
+        
+        <div id="result1">
+        </div>
+    }
+</div>
+
+@section Scripts {
+
+    <script type="text/javascript">
+        function myFunction() {
+            //document.getElementById("total").value = parseInt(document.getElementById("No_Females").value) + parseInt(document.getElementById("No_Males").value);
+            $('#total').val(parseInt(document.getElementById("No_Females").value) + parseInt(document.getElementById("No_Males").value));
+        }
+    </script>
+   
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var date = new Date();
+            
+            $('#datepicker').val(('0'+(date.getMonth()+1)).slice(-2) + '-' + ('0'+ date.getDate()).slice(-2) + '-' + date.getFullYear());
+        });
+        $(function () {
+            $("#datepicker").datepicker(
+                );
+        });
+        $(function () {
+            $("#datepicker2").datepicker();
+        });
+    </script>
+    <script type="text/javascript">
+        function disablebtn() {
+            var nextbtn = document.getElementById("btn-observation");
+           
+            nextbtn.disabled = true;
+        }
+        $(document).ready(function () {
+            var nextbtn = document.getElementById("btn-observation");
+
+            nextbtn.disabled = false;
+        });
+    </script>
+    
+}

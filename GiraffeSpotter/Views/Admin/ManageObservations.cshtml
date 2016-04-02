@@ -1,0 +1,50 @@
+﻿@model IEnumerable<GiraffeSpotter.Models.Observation>
+@using GridMvc.Html;
+
+
+<div class="container">
+    <div class="col-md-6 col-md-offset-2 pull-left">
+        <h4><b>All observations</b></h4>
+
+        <br />
+
+        @Html.Grid(Model).Columns(columns =>
+                    {
+                        columns.Add(c => c.Id)
+                            .Titled("Observation")
+                            .Filterable(true);
+                        columns.Add(c => c.Date_of_Observation)
+                            .Titled("Date observed")
+                            .Filterable(true);
+                        columns.Add(c => c.Date_of_Submission)
+                            .Titled("Date posted")
+                            .Filterable(true);
+                        columns.Add(c => c.Username)
+                            .Titled("Posted by")
+                            .Filterable(true);
+                        
+                        columns.Add(c => c.Status)
+                            .Titled("Status")
+                            .Filterable(true);
+                        columns.Add()
+                            .Sanitized(false)
+                            .Encoded(false)
+                            .RenderValueAs(o => Html.ActionLink("Details", "ViewObservation", "Observation", new { id = o.Id }, new { @class = "btn btn-sm btn-safari" }).ToHtmlString());
+                        columns.Add()
+                            .Sanitized(false)
+                            .Encoded(false)
+                            .RenderValueAs(o => Html.ActionLink("Edit", "Edit", "Observation", new { id = o.Id }, new { @class = "btn btn-sm btn-safari" }).ToHtmlString());
+                        columns.Add()
+                            .Sanitized(false)
+                            .Encoded(false)
+                            .RenderValueAs(o => Html.ActionLink("Delete", "DeleteObservation", "Admin", new { id = o.Id }, new { @class = "btn btn-sm btn-safari" }).ToHtmlString());
+                      
+                    }).WithPaging(10).Sortable(true)
+    </div>
+</div>
+
+
+
+<!--=============================================remove from below=====================-->
+
+

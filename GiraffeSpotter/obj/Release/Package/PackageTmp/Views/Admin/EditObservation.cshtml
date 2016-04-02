@@ -1,0 +1,138 @@
+﻿@model GiraffeSpotter.Models.Observation
+
+
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+    <div class="col-md-5 col-md-offset-3">
+    <fieldset>
+        <legend>Edit Observation</legend>
+
+        @Html.HiddenFor(model => model.Id)
+        @Html.HiddenFor(model => model.Comment)
+       
+        <div class="editor-field">
+            @Html.HiddenFor(model => model.Date_of_Observation, new { @class="form-control",})
+          
+        </div>
+
+      
+        <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Subspecies &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</strong></span>
+                            @*@Html.TextBoxFor(model => model.Sub_Species, null, new { @class = "form-control"})*@
+                            @Html.DropDownListFor(model => model.Sub_Species,new SelectList(
+                            new List<Object>{
+                                new{value="Unknown", text="Unknown"},
+                            new{value="G. c. angolensis",text="G. c. angolensis"},
+                            new{value="G. c. antiquorum",text="G. c. antiquorum"},
+                            new{value="G. c. camelopardalis",text="G. c. camelopardalis"},
+                            new{value="G. c. giraffa",text="G. c. giraffa"},
+                            new{value="G. c. peralta",text="G. c. peralta"},
+                            new{value="G. c. reticulata",text="G. c. reticulata"},
+                            new{value="G. c. rothschildi",text="G. c. rothschildi"},
+                            new{value="G. c. thornicrofti",text="G. c. thornicrofti"},
+                            new{value="G. c. tippelskirchi",text="G. c. tippelskirchi"}
+                            },"value", "text", 10), new { @class = "form-control"})
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-tags"></span></span>
+                        </div>
+                        <strong>
+                            <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Sub_Species)</p>
+                        </strong>
+                    </div>
+
+        <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Male giraffe &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</strong></span>
+                            @Html.TextBoxFor(model => model.No_of_Male, new { @class = "form-control", @id = "No_Males", type = "number", onchange = "myFunction()" })
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-plus"></span></span>
+                        </div>
+                        <strong>
+                            <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.No_of_Male)</p>
+                        </strong>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Female giraffe &nbsp &nbsp &nbsp &nbsp &nbsp</strong></span>
+                            @Html.TextBoxFor(model => model.No_of_Female, new { @class = "form-control", @id = "No_Females", type = "number", onchange = "myFunction()" })
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-plus"></span></span>
+                        </div>
+                        <strong>
+                            <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.No_of_Female)</p>
+                        </strong>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Group Size &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</strong></span>
+                            @Html.TextBoxFor(model => model.Group_Size, new { @class = "form-control", @id = "total", type = "number" })
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-transfer"></span></span>
+                        </div>
+                        <strong>
+                            <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Group_Size)</p>
+                        </strong>
+                    </div>
+
+        
+        <div class="editor-field">
+            
+            @Html.HiddenFor(model => model.Date_of_Submission)
+            
+        </div>
+
+        <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Status &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</strong></span>
+            @Html.DropDownListFor(model => model.Status,new SelectList(new List<Object> { new{value="Pending", text="Pending"},
+                                                                                   new{value="Accepted",text="Accepted"},
+                                                                                   new{value="Rejected",text="Rejected"}}, "value", "text", 2), new { @class = "form-control input-md" })
+           </div>  
+        </div>
+        <br />
+       
+        <div class="editor-field">
+            @Html.HiddenFor(model => model.Username)
+        </div>
+       
+        <br />
+       <p>
+            <input id="btn-observation" type="submit" value="Save" class="btn btn-safari btn-md btn-block">
+           <br />
+           <a href="~/Admin/ManageObservations"  class = "btn btn-danger btn-lg btn-block">Cancel</a>
+       </p>          
+    </fieldset>
+        </div>
+}
+
+
+
+@section Scripts {
+
+    <script type="text/javascript">
+        function myFunction() {
+            //document.getElementById("total").value = parseInt(document.getElementById("No_Females").value) + parseInt(document.getElementById("No_Males").value);
+            $('#total').val(parseInt(document.getElementById("No_Females").value) + parseInt(document.getElementById("No_Males").value));
+        }
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+        $(function () {
+            $("#datepicker2").datepicker();
+        });
+    </script>
+    <script type="text/javascript">
+        function disablebtn() {
+            var nextbtn = document.getElementById("btn-observation");
+            nextbtn.disabled = true;
+        }
+        $(document).ready(function () {
+            var nextbtn = document.getElementById("btn-observation");
+            nextbtn.disabled = false;
+        });
+    </script>
+    
+}

@@ -1,0 +1,40 @@
+﻿@model GiraffeSpotter.Models.ViewModels.GalleryViewModel
+
+<script src="~/Scripts/jquery-1.9.0.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+@*using (Ajax.BeginForm("Gallery", "Observation", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "result2" }, new { enctype = "multipart/form-data" }))*@
+
+
+@using (Html.BeginForm("Gallery", "Observation", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+
+    <div class="col-md-4">
+        <div class="login-panel panel-grey">
+            <div class="panel-heading">
+                <h1 class="panel-title" align="center">Upload Observation Images</h1>
+            </div>
+            <div class="panel-body" style="padding: 0px;">
+                <div class="alert alert-info">
+                    <p>
+                        <strong>Important :</strong> Please keep your image size <strong>below 1</strong> MegaByte. To upload multiple images click CTRL/Command and select the images to be uploaded.
+                <strong>Thank you!</strong>
+                    </p>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon"><strong>Images </strong></span>
+                        @Html.TextBoxFor(model => model.images, new { @class = "form-control input-md", type = "file", name = "files", value = "", multiple = "multiple" })
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-picture"></span></span>
+                    </div>
+                    <strong>
+                        <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.images)</p>
+                    </strong>
+                </div>
+                <input id="btn-observation" type="submit" value="Upload Images" class="btn btn-safari btn-md btn-block">
+            </div>
+        </div>
+    </div>
+}

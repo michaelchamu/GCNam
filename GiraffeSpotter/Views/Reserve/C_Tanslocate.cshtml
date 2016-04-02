@@ -1,0 +1,81 @@
+﻿@model GiraffeSpotter.Models.Giraffe
+
+@{
+    ViewBag.Title = "C_Tanslocate";
+}
+
+<h2>C_Tanslocate</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Giraffe</legend>
+        @Html.HiddenFor(model => model.Game_ReserveId)
+        @Html.HiddenFor(model => model.Status)
+        
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon"><strong>Date of Recieval</strong></span>
+                @Html.TextBoxFor(model => model.Date_of_Recieval, null, new { @class = "form-control", @id = "datepicker", placeholder = "Date of Submission" })
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+            </div>
+            <strong>
+                <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Date_of_Recieval)</p>
+            </strong>
+        </div>
+
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon"><strong>Sub Species</strong></span>
+                @Html.TextBoxFor(model => model.Sub_Species, null, new { @class = "form-control", placeholder = "Sub Species" })
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+            </div>
+            <strong>
+                <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Sub_Species)</p>
+            </strong>
+        </div>
+
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon"><strong>Gender</strong></span>
+                @Html.TextBoxFor(model => model.Gender, null, new { @class = "form-control", placeholder = "Gender" })
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+            </div>
+            <strong>
+                <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Gender)</p>
+            </strong>
+        </div>
+
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon"><strong>Age </strong></span>
+                @Html.TextBoxFor(model => model.Age, null, new { @class = "form-control", placeholder = "Age" })
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+            </div>
+            <strong>
+                <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Age)</p>
+            </strong>
+        </div>
+
+        <div class="form-group">
+            <div class="input-group">
+                <span class="input-group-addon"><strong>Place of Origin</strong></span>
+                @Html.TextBoxFor(model => model.Place_of_Origin, null, new { @class = "form-control", placeholder = "PLace of Origin" })
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+            </div>
+            <strong>
+                <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Place_of_Origin)</p>
+            </strong>
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,698 @@
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\GiraffeSpotter.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\GiraffeSpotter.pdb
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Antlr3.Runtime.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Dapper.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.Core.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\EntityFramework.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\GridMvc.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Data.Edm.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Data.OData.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Newtonsoft.Json.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Net.Http.Formatting.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Spatial.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Helpers.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.OData.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.WebHost.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Mvc.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Optimization.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Razor.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.Razor.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\WebGrease.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\WebMatrix.Data.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\WebMatrix.WebData.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Dapper.pdb
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Dapper.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\EntityFramework.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Newtonsoft.Json.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Net.Http.Formatting.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Helpers.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.WebHost.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Mvc.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Razor.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.Razor.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\WebMatrix.Data.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\WebMatrix.WebData.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.Core.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.OData.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Data.Edm.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Data.OData.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Spatial.xml
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\de\System.Spatial.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\es\System.Spatial.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\fr\System.Spatial.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\it\System.Spatial.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ja\System.Spatial.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ko\System.Spatial.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ru\System.Spatial.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\obj\Debug\GiraffeSpotter.dll
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\obj\Debug\GiraffeSpotter.pdb
+C:\Users\Donovan\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\obj\Debug\GiraffeSpotter.csprojResolveAssemblyReference.cache
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\GiraffeSpotter.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\GiraffeSpotter.pdb
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Antlr3.Runtime.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Dapper.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.Core.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\EntityFramework.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\GridMvc.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Data.Edm.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Data.OData.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Newtonsoft.Json.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Net.Http.Formatting.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Spatial.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Helpers.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.OData.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.WebHost.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Mvc.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Optimization.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Razor.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.Razor.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\WebGrease.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\WebMatrix.Data.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\WebMatrix.WebData.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Dapper.pdb
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Dapper.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\EntityFramework.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Newtonsoft.Json.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Net.Http.Formatting.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Helpers.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.WebHost.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Mvc.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Razor.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.Razor.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\WebMatrix.Data.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\WebMatrix.WebData.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.Core.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.OData.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Data.Edm.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Data.OData.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Spatial.xml
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\de\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\es\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\fr\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\it\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ja\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ko\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ru\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\obj\Debug\GiraffeSpotter.dll
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\obj\Debug\GiraffeSpotter.pdb
+C:\Users\MaddMike\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\obj\Debug\GiraffeSpotter.csprojResolveAssemblyReference.cache
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\GiraffeSpotter.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\GiraffeSpotter.pdb
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Antlr3.Runtime.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Dapper.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.Core.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\EntityFramework.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\GridMvc.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Data.Edm.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Data.OData.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Newtonsoft.Json.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Net.Http.Formatting.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Spatial.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Helpers.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.OData.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.WebHost.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Mvc.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Optimization.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Razor.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.Deployment.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.Razor.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\WebGrease.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\WebMatrix.Data.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\WebMatrix.WebData.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Dapper.pdb
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Dapper.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\EntityFramework.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Newtonsoft.Json.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Net.Http.Formatting.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Helpers.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.WebHost.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Mvc.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Razor.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.Deployment.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.Razor.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\WebMatrix.Data.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\WebMatrix.WebData.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.Core.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.OData.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Data.Edm.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Data.OData.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\System.Spatial.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\de\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\es\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\fr\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\it\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ja\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ko\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\ru\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\obj\Debug\GiraffeSpotter.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter\GiraffeSpotter\obj\Debug\GiraffeSpotter.pdb
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\GiraffeSpotter.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\GiraffeSpotter.pdb
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Antlr3.Runtime.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Dapper.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.Core.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\EntityFramework.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\GridMvc.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Data.Edm.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Data.OData.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Newtonsoft.Json.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Net.Http.Formatting.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Spatial.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Helpers.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.OData.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.WebHost.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Mvc.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Optimization.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Razor.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.Deployment.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.Razor.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebGrease.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebMatrix.Data.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebMatrix.WebData.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Dapper.pdb
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Dapper.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\EntityFramework.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Newtonsoft.Json.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Net.Http.Formatting.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Helpers.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.WebHost.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Mvc.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Razor.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.Deployment.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.Razor.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebMatrix.Data.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebMatrix.WebData.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.Core.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.OData.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Data.Edm.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Data.OData.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Spatial.xml
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\de\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\es\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\fr\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\it\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ja\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ko\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ru\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\obj\Debug\GiraffeSpotter.dll
+C:\Users\michael\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\obj\Debug\GiraffeSpotter.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\GiraffeSpotter.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\GiraffeSpotter.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Antlr3.Runtime.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Dapper.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.Core.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\EntityFramework.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\GridMvc.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Data.Edm.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Data.OData.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Newtonsoft.Json.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Spatial.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Helpers.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.OData.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Mvc.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Optimization.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Razor.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebGrease.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebMatrix.Data.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebMatrix.WebData.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Dapper.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Dapper.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\EntityFramework.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Newtonsoft.Json.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Helpers.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Mvc.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Razor.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebMatrix.Data.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebMatrix.WebData.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.Core.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.OData.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Data.Edm.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Data.OData.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Spatial.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\de\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\es\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\fr\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\it\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ja\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ko\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ru\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\obj\Debug\GiraffeSpotter.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\obj\Debug\GiraffeSpotter.dll
+C:\Users\user\Documents\Visual Studio 2012\Projects\GiraffeSpotter(Broken)\GiraffeSpotter\obj\Debug\GiraffeSpotter.pdb
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\GiraffeSpotter.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\GiraffeSpotter.pdb
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Antlr3.Runtime.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Dapper.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.Core.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\EntityFramework.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\GridMvc.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Data.Edm.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Data.OData.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Newtonsoft.Json.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Net.Http.Formatting.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Spatial.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Helpers.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.OData.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.WebHost.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Mvc.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Optimization.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Razor.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.Razor.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebGrease.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebMatrix.Data.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebMatrix.WebData.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Dapper.pdb
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Dapper.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\EntityFramework.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Newtonsoft.Json.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Net.Http.Formatting.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Helpers.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.WebHost.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Mvc.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Razor.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.Razor.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebMatrix.Data.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebMatrix.WebData.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.Core.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.OData.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Data.Edm.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Data.OData.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Spatial.xml
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\de\System.Spatial.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\es\System.Spatial.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\fr\System.Spatial.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\it\System.Spatial.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ja\System.Spatial.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ko\System.Spatial.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ru\System.Spatial.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\obj\Debug\GiraffeSpotter.csprojResolveAssemblyReference.cache
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\obj\Debug\GiraffeSpotter.dll
+C:\Users\MaddMike\Desktop\GiraffeSpotter(Broken)\GiraffeSpotter\obj\Debug\GiraffeSpotter.pdb
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\GiraffeSpotter.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\GiraffeSpotter.pdb
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Antlr3.Runtime.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Dapper.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.Core.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\EntityFramework.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\GridMvc.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Data.Edm.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Data.OData.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Newtonsoft.Json.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Spatial.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Helpers.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.OData.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Mvc.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Optimization.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Razor.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.Razor.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebGrease.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebMatrix.Data.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebMatrix.WebData.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Dapper.pdb
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Dapper.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\EntityFramework.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Newtonsoft.Json.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Helpers.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Mvc.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Razor.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.WebPages.Razor.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebMatrix.Data.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\WebMatrix.WebData.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.Core.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Web.Http.OData.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Data.Edm.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\Microsoft.Data.OData.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\System.Spatial.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\de\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\es\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\fr\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\it\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ja\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ko\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\ru\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\obj\Debug\GiraffeSpotter.csprojResolveAssemblyReference.cache
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\obj\Debug\GiraffeSpotter.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter(Broken)\GiraffeSpotter\obj\Debug\GiraffeSpotter.pdb
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\GiraffeSpotter.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\GiraffeSpotter.pdb
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\Antlr3.Runtime.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\Dapper.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.Core.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\EntityFramework.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\GridMvc.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Data.Edm.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Data.OData.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\Newtonsoft.Json.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\System.Spatial.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Helpers.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.OData.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Mvc.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Optimization.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Razor.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.Razor.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\WebGrease.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\WebMatrix.Data.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\WebMatrix.WebData.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\Dapper.pdb
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\Dapper.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\EntityFramework.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\Newtonsoft.Json.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Helpers.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Mvc.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Razor.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\System.Web.WebPages.Razor.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\WebMatrix.Data.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\WebMatrix.WebData.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.Core.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\System.Web.Http.OData.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Data.Edm.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\Microsoft.Data.OData.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\System.Spatial.xml
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\de\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\es\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\fr\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\it\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\ja\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\ko\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\ru\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\obj\Debug\GiraffeSpotter.csprojResolveAssemblyReference.cache
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\obj\Debug\GiraffeSpotter.dll
+C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\obj\Debug\GiraffeSpotter.pdb

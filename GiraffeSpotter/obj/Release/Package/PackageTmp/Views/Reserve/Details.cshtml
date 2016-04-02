@@ -1,0 +1,76 @@
+﻿@model GiraffeSpotter.Models.ViewModels.ReserveManage
+@using GridMvc.Html
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <fieldset>
+            <legend><p align="center">Game Reserve</p></legend>
+
+            <div class="panel panel-gold" style="border-color: #636363;">
+                <div class="panel-heading">
+                    <h2 align="center">@Model.reserve.Name</h2>
+                </div>
+                <table class="table table-bordered">
+                    <tr>
+                        <td>
+                            <strong>Reserve Type</strong>
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.reserve.Type)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Country</strong>
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.reserve.Country)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Region</strong>
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.reserve.Region)
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </fieldset>
+        <p>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.reserve.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+        </p>
+
+
+        @Html.ActionLink("Save Translocation", "C_Tanslocate", "Reserve", new { reserve_id = Model.reserve.Id }, new { @class = "btn btn-safari btn-sm" })
+
+        @Html.Grid(Model.giraffe).Columns(columns =>
+                    {
+                        columns.Add(c => c.Date_of_Recieval)
+                            .Titled("Date of Recieval")
+                            .Filterable(true)
+                            .Sanitized(false)
+                            .Encoded(false)
+                            .RenderValueAs(o => Html.ActionLink(o.Id.ToString(), "Edit", "Reserve", new { id = o.Id }, new { @class = "btn btn-safari btn-sm" }).ToHtmlString());
+                        columns.Add(c => c.Sub_Species)
+                            .Titled("Sub Species")
+                            .Filterable(true);
+                        columns.Add(c => c.Gender)
+                            .Titled("Gender")
+                            .Filterable(true);
+                        columns.Add(c => c.Age)
+                            .Titled("Age")
+                            .Filterable(true);
+                        columns.Add(c => c.Place_of_Origin)
+                            .Titled("Place of Origin")
+                            .Filterable(true);
+                        columns.Add()
+                            .Sanitized(false)
+                            .Encoded(false)
+                            .RenderValueAs(o => Html.ActionLink("Details", "G_Details", "Reserve", new { id = o.Id }, new { @class = "btn btn-sm btn-safari" }).ToHtmlString());
+                    }).WithPaging(10).Sortable(true)
+    </div>
+</div>

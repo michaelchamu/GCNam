@@ -1,0 +1,78 @@
+﻿@model GiraffeSpotter.Models.Observation
+
+
+<div class="col-md-5 col-md-offset-3">
+<fieldset>
+    <center>
+     <div class="alert alert-warning alert-dismissable">
+                                        <i class="fa fa-warning"></i>
+                                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                        <b>Warning</b> You are about to delete an observation , if you are positive , click delete. If this was a mistake, click on back to list
+                                    </div>
+    <legend>Observation details</legend>
+
+    <div class="display-label">
+        <h4><b>Date observed</b></h4>
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Date_of_Observation)
+    </div>
+
+    <div class="display-label">
+         <h4><b>Sub species</b></h4>
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Sub_Species)
+    </div>
+
+    <div class="display-label">
+         <h4><b>Number of males</b></h4>
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.No_of_Male)
+    </div>
+
+    <div class="display-label">
+         <h4><b>Number of females</b></h4>
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.No_of_Female)
+    </div>
+
+    <div class="display-label">
+        <h4><b>Total group</b></h4>
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Group_Size)
+    </div>
+
+    <div class="display-label">
+         <h4><b>Date submitted</b></h4>
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Date_of_Submission)
+    </div>
+
+    <div class="display-label">
+        <h4><b>Status</b></h4>
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Status)
+    </div>
+
+    <div class="display-label">
+        <h4><b>Posted by</b></h4>
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Username)
+    </div>
+        </center>
+</fieldset>
+    @using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" class="btn btn-safari btn-lg btn-block"/>
+        <br />
+        <a href="~/Admin/ManageObservations"  class = "btn btn-danger btn-lg btn-block">Cancel</a>
+    </p>}
+    </div>
+

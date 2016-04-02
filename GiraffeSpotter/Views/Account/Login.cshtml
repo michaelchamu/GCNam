@@ -1,0 +1,63 @@
+﻿@model GiraffeSpotter.Models.LoginModel
+
+<div class="row">
+    <div class="col-md-9 col-md-offset-2" style="background-image: url('/Images/SAG Kgalagadi Transfronier Park RSA © Nico Smit.jpg'); height: 500px; background-repeat: no-repeat;">
+        <div class="row centered-form">
+            <div class="col-xs-12 col-sm-8 col-md-4" style="padding-left: 0px; padding-right: 0px;">
+                <div class="login-panel panel-grey">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" align="center">Please Login</h3>
+                    </div>
+                    <div class="panel-body" style="height: 459px;">
+                        <section id="loginForm">
+                            <h4 align="center">Login Details</h4>
+                            @using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl }))
+                            {
+                                @Html.AntiForgeryToken()
+                                @Html.ValidationSummary(true)
+
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                        @Html.TextBoxFor(m => m.UserName, null, new { @class = "form-control input-lg", placeholder = "Username" })
+                                    </div>
+                                    <strong><p align="center" class="alert-danger">@Html.ValidationMessageFor(m => m.UserName, null)</p></strong>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-eye-close"></span></span>
+                                        @Html.PasswordFor(m => m.Password, new { @class = "form-control input-lg", placeholder = "Password" })
+                                    </div>
+                                    <strong><p align="center" class="alert-danger">@Html.ValidationMessageFor(m => m.Password, null)</p></strong>
+                                </div>
+                                
+                                <div class="checkbox">
+                                    <label>
+                                        @Html.LabelFor(m => m.RememberMe, new { @class = "checkbox" })
+                                        @Html.CheckBoxFor(m => m.RememberMe)
+                                    </label>
+                                </div>
+                                <br />
+                                @*<a href="~/Account/ForgotP"> <p align="center">Dont Remember your Password? </p></a>*@
+                                <p align="center">@Html.ActionLink("Don't Remember your Password?", "ForgotP", "ForgotPassword")</p>
+                                <br />
+                                
+                                <input type="submit" value="Login" class="btn btn-safari btn-lg btn-block">
+                                <br />
+                                <p align="center">
+                                    If you don't have an account.
+                                </p>
+                                @Html.ActionLink("Register", "Register", null, new { @class = "btn btn-safari btn-lg btn-block" })
+                            }
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

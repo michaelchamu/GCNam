@@ -1,0 +1,143 @@
+﻿@model GiraffeSpotter.Models.ViewModels.LocationViewModel
+
+<script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+
+<!-- This css is to ensure that the google map contols (zoom bar etc) show and size correctly. -->
+<style>
+    #map_canvas img {
+        max-width: none;
+    }
+</style>
+
+<!-- This css is to give a nice big popup "info window" when a marker is clicked on the map -->
+<style>
+    .infoDiv {
+        height: 200px;
+        width: 300px;
+        -webkit-user-select: none;
+        background-color: white;
+    }
+</style>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <h2 align="center">Take Action: Create Observation (Step 3)</h2>
+    <div class="row">
+        <div class="col-md-7 col-md-offset-2">
+            <div class="panel panel-gold" style="border-color: #636363;">
+                <div class="panel-heading">
+                    <h3 align="center">Selected Location</h3>
+                </div>
+                <div class="panel-body">
+ <div class="col-md-12">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><strong>Latitude &nbsp &nbsp</strong></span>
+                                @Html.TextBoxFor(model => model.lat, null, new { @class = "form-control", @id = "lat", placeholder = "Latitude e.g 10.000000" })
+                            </div>
+                        </div>
+                    </div>
+     <div class="col-md-6">
+         <div class="form-group">
+             <div class="input-group">
+                 <span class="input-group-addon"><strong>Longitude</strong></span>
+                 @Html.TextBoxFor(model => model.lng, null, new { @class = "form-control", @id = "lng", placeholder = "Longitude e.g 10.000000" })
+             </div>
+         </div>
+          
+     </div>
+     
+     </div></div>
+                </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-7 col-md-offset-2">
+            <div class="panel panel-gold" style="border-color: #636363;">
+                <div class="panel-body" style="padding: 0px;">
+                    <div id="map_canvas" style="height: 500px;"></div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="row">
+        <div class="col-md-7 col-md-offset-2">
+            <input type="submit" value="Submit Location" class="btn btn-safari btn-md btn-block">
+        </div>
+    </div>
+        
+}
+
+
+@section scripts{
+
+    <section class="scripts">
+        <script type="text/javascript">
+            <!-- This code tells the browser to execute the "Initialize" method only when the complete document model has been loaded. -->
+            $(document).ready(function () {
+                Initialize();
+            });
+
+            // Where all the fun happens 
+            var marker;
+
+            function Initialize() {
+
+                google.maps.visualRefresh = true;
+                var observation = new google.maps.LatLng(21, 8)
+             
+
+                // These are options that set initial zoom level, where the map is centered globally to start, and the type of map to show
+                var mapOptions = {
+                    zoom: 3,
+                    center: observation,
+                    mapTypeId: google.maps.MapTypeId.HYBRID
+                };
+
+                // This makes the div with id "map_canvas" a google map
+                var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+                google.maps.event.addListener(map, 'click', function(event) {
+                    placeMarker(event.latLng);
+                });
+
+                function placeMarker(location) {
+
+
+
+                    if (marker == undefined){
+                        marker = new google.maps.Marker({
+                            position: location,
+                            map: map,
+                           
+                            animation: google.maps.Animation.DROP,});
+                    }
+                    else{
+                        marker.setPosition(location);
+                    }
+                    
+                    
+
+                    var lat = location.lat();
+                    var lng = location.lng();
+                 
+                    $('#lat').val(lat);
+                    $('#lng').val(lng);
+               
+                
+                    //alert("Lat:" + lat + " Long:" + lng);
+
+                   
+
+                    marker.setIcon('/Images/GiraffePin2.png')
+                    map.setCenter(location);                    
+                }
+            }
+        </script>
+    </section>
+}

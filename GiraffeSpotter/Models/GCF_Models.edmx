@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="GCF_Models.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="GCF_ModelsStoreContainer">
+    <EntitySet Name="Profile_Pictures" EntityType="GCF_Models.Store.Profile_Pictures" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Game_Reserve" EntityType="GCF_Models.Store.Game_Reserve" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Giraffes" EntityType="GCF_Models.Store.Giraffes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Locations" EntityType="GCF_Models.Store.Locations" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Galleries" EntityType="GCF_Models.Store.Galleries" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Observations" EntityType="GCF_Models.Store.Observations" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="Game_ReserveLocations" Association="GCF_Models.Store.Game_ReserveLocations">
+      <End Role="Game_Reserve" EntitySet="Game_Reserve" />
+      <End Role="Locations" EntitySet="Locations" />
+    </AssociationSet>
+    <AssociationSet Name="ObservationGallery" Association="GCF_Models.Store.ObservationGallery">
+      <End Role="Observation" EntitySet="Observations" />
+      <End Role="Gallery" EntitySet="Galleries" />
+    </AssociationSet>
+    <AssociationSet Name="Game_ReserveGiraffe" Association="GCF_Models.Store.Game_ReserveGiraffe">
+      <End Role="Game_Reserve" EntitySet="Game_Reserve" />
+      <End Role="Giraffe" EntitySet="Giraffes" />
+    </AssociationSet>
+    <AssociationSet Name="ObservationLocations" Association="GCF_Models.Store.ObservationLocations">
+      <End Role="Observation" EntitySet="Observations" />
+      <End Role="Locations" EntitySet="Locations" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Profile_Pictures">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ImageByte" Type="varbinary(max)" Nullable="false" />
+    <Property Name="Extension" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Username" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Game_Reserve">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Type" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Country" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Region" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Category" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Username" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Status" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Location_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Giraffes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date_of_Recieval" Type="datetime" Nullable="false" />
+    <Property Name="Sub_Species" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Gender" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Age" Type="int" Nullable="false" />
+    <Property Name="Place_of_Origin" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Status" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Game_ReserveId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Locations">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Latitude" Type="decimal" Nullable="false" Scale="8" />
+    <Property Name="Longitude" Type="decimal" Nullable="false" Scale="8" />
+  </EntityType>
+  <EntityType Name="Galleries">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ImageBytes" Type="varbinary(max)" Nullable="true" />
+    <Property Name="Caption" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ObservationId" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Observations">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date_of_Observation" Type="datetime" Nullable="false" />
+    <Property Name="Sub_Species" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="No_of_Male" Type="int" Nullable="false" />
+    <Property Name="No_of_Female" Type="int" Nullable="false" />
+    <Property Name="Group_Size" Type="int" Nullable="false" />
+    <Property Name="Date_of_Submission" Type="datetime" Nullable="false" />
+    <Property Name="Status" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Username" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Comment" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Location_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="Game_ReserveLocations">
+    <End Role="Game_Reserve" Type="GCF_Models.Store.Game_Reserve" Multiplicity="*" />
+    <End Role="Locations" Type="GCF_Models.Store.Locations" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Locations">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Game_Reserve">
+        <PropertyRef Name="Location_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ObservationGallery">
+    <End Role="Observation" Type="GCF_Models.Store.Observations" Multiplicity="0..1" />
+    <End Role="Gallery" Type="GCF_Models.Store.Galleries" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Observation">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Gallery">
+        <PropertyRef Name="ObservationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Game_ReserveGiraffe">
+    <End Role="Game_Reserve" Type="GCF_Models.Store.Game_Reserve" Multiplicity="1" />
+    <End Role="Giraffe" Type="GCF_Models.Store.Giraffes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Game_Reserve">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Giraffe">
+        <PropertyRef Name="Game_ReserveId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ObservationLocations">
+    <End Role="Observation" Type="GCF_Models.Store.Observations" Multiplicity="*" />
+    <End Role="Locations" Type="GCF_Models.Store.Locations" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Locations">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Observation">
+        <PropertyRef Name="Location_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="GCF_Models" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="GCF_ModelsContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Profile_Pictures" EntityType="GCF_Models.Profile_Pictures" />
+          <EntitySet Name="Game_Reserve" EntityType="GCF_Models.Game_Reserve" />
+          <EntitySet Name="Giraffes" EntityType="GCF_Models.Giraffe" />
+          <EntitySet Name="Locations" EntityType="GCF_Models.Locations" />
+          <EntitySet Name="Galleries" EntityType="GCF_Models.Gallery" />
+          <EntitySet Name="Observations" EntityType="GCF_Models.Observation" />
+          <AssociationSet Name="Game_ReserveLocations" Association="GCF_Models.Game_ReserveLocations">
+            <End Role="Game_Reserve" EntitySet="Game_Reserve" />
+            <End Role="Locations" EntitySet="Locations" />
+          </AssociationSet>
+          <AssociationSet Name="ObservationGallery" Association="GCF_Models.ObservationGallery">
+            <End Role="Observation" EntitySet="Observations" />
+            <End Role="Gallery" EntitySet="Galleries" />
+          </AssociationSet>
+          <AssociationSet Name="Game_ReserveGiraffe" Association="GCF_Models.Game_ReserveGiraffe">
+            <End Role="Game_Reserve" EntitySet="Game_Reserve" />
+            <End Role="Giraffe" EntitySet="Giraffes" />
+          </AssociationSet>
+          <AssociationSet Name="ObservationLocations" Association="GCF_Models.ObservationLocations">
+            <End Role="Observation" EntitySet="Observations" />
+            <End Role="Locations" EntitySet="Locations" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Profile_Pictures">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Binary" Name="ImageByte" Nullable="false" MaxLength="Max" />
+          <Property Type="String" Name="Extension" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Type="String" Name="Username" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Game_Reserve">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" Nullable="false" />
+          <Property Type="String" Name="Type" Nullable="false" />
+          <Property Type="String" Name="Country" Nullable="false" />
+          <Property Type="String" Name="Region" Nullable="false" />
+          <NavigationProperty Name="Location" Relationship="GCF_Models.Game_ReserveLocations" FromRole="Game_Reserve" ToRole="Locations" />
+          <Property Type="String" Name="Category" Nullable="false" />
+          <Property Type="String" Name="Username" Nullable="false" />
+          <NavigationProperty Name="Giraffes" Relationship="GCF_Models.Game_ReserveGiraffe" FromRole="Game_Reserve" ToRole="Giraffe" />
+          <Property Type="String" Name="Status" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Giraffe">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="DateTime" Name="Date_of_Recieval" Nullable="false" />
+          <Property Type="String" Name="Sub_Species" Nullable="false" />
+          <Property Type="String" Name="Gender" Nullable="false" />
+          <Property Type="Int32" Name="Age" Nullable="false" />
+          <Property Type="String" Name="Place_of_Origin" Nullable="false" />
+          <Property Type="String" Name="Status" Nullable="false" />
+          <NavigationProperty Name="Game_Reserve" Relationship="GCF_Models.Game_ReserveGiraffe" FromRole="Giraffe" ToRole="Game_Reserve" />
+          <Property Type="Int32" Name="Game_ReserveId" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Locations">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Decimal" Name="Latitude" Nullable="false" Scale="8" />
+          <Property Type="Decimal" Name="Longitude" Nullable="false" Scale="8" />
+          <NavigationProperty Name="Game_Reserve" Relationship="GCF_Models.Game_ReserveLocations" FromRole="Locations" ToRole="Game_Reserve" />
+          <NavigationProperty Name="Observation" Relationship="GCF_Models.ObservationLocations" FromRole="Locations" ToRole="Observation" />
+        </EntityType>
+        <EntityType Name="Gallery">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Binary" Name="ImageBytes" Nullable="true" />
+          <Property Type="String" Name="Caption" Nullable="false" />
+          <NavigationProperty Name="Observation" Relationship="GCF_Models.ObservationGallery" FromRole="Gallery" ToRole="Observation" />
+          <Property Type="Int32" Name="ObservationId" Nullable="true" />
+        </EntityType>
+        <EntityType Name="Observation">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="DateTime" Name="Date_of_Observation" Nullable="false" />
+          <Property Type="String" Name="Sub_Species" Nullable="false" />
+          <Property Type="Int32" Name="No_of_Male" Nullable="false" />
+          <Property Type="Int32" Name="No_of_Female" Nullable="false" />
+          <Property Type="Int32" Name="Group_Size" Nullable="false" />
+          <Property Type="DateTime" Name="Date_of_Submission" Nullable="false" />
+          <NavigationProperty Name="Galleries" Relationship="GCF_Models.ObservationGallery" FromRole="Observation" ToRole="Gallery" />
+          <Property Type="String" Name="Status" Nullable="false" />
+          <NavigationProperty Name="Location" Relationship="GCF_Models.ObservationLocations" FromRole="Observation" ToRole="Locations" />
+          <Property Type="String" Name="Username" Nullable="false" />
+          <Property Type="String" Name="Comment" Nullable="true" />
+        </EntityType>
+        <Association Name="Game_ReserveLocations">
+          <End Type="GCF_Models.Game_Reserve" Role="Game_Reserve" Multiplicity="0..1" />
+          <End Type="GCF_Models.Locations" Role="Locations" Multiplicity="1" />
+        </Association>
+        <Association Name="ObservationGallery">
+          <End Type="GCF_Models.Observation" Role="Observation" Multiplicity="0..1" />
+          <End Type="GCF_Models.Gallery" Role="Gallery" Multiplicity="*" ></End>
+          <ReferentialConstraint>
+            <Principal Role="Observation">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Gallery">
+              <PropertyRef Name="ObservationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Game_ReserveGiraffe">
+          <End Type="GCF_Models.Game_Reserve" Role="Game_Reserve" Multiplicity="1" />
+          <End Type="GCF_Models.Giraffe" Role="Giraffe" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Game_Reserve">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Giraffe">
+              <PropertyRef Name="Game_ReserveId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ObservationLocations">
+          <End Type="GCF_Models.Observation" Role="Observation" Multiplicity="0..1" />
+          <End Type="GCF_Models.Locations" Role="Locations" Multiplicity="1" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GCF_ModelsStoreContainer" CdmEntityContainer="GCF_ModelsContainer">
+    <EntitySetMapping Name="Profile_Pictures">
+      <EntityTypeMapping TypeName="IsTypeOf(GCF_Models.Profile_Pictures)">
+        <MappingFragment StoreEntitySet="Profile_Pictures">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ImageByte" ColumnName="ImageByte" />
+          <ScalarProperty Name="Extension" ColumnName="Extension" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Game_Reserve">
+      <EntityTypeMapping TypeName="IsTypeOf(GCF_Models.Game_Reserve)">
+        <MappingFragment StoreEntitySet="Game_Reserve">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Giraffes">
+      <EntityTypeMapping TypeName="IsTypeOf(GCF_Models.Giraffe)">
+        <MappingFragment StoreEntitySet="Giraffes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Date_of_Recieval" ColumnName="Date_of_Recieval" />
+          <ScalarProperty Name="Sub_Species" ColumnName="Sub_Species" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Place_of_Origin" ColumnName="Place_of_Origin" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Game_ReserveId" ColumnName="Game_ReserveId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locations">
+      <EntityTypeMapping TypeName="IsTypeOf(GCF_Models.Locations)">
+        <MappingFragment StoreEntitySet="Locations">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Galleries">
+      <EntityTypeMapping TypeName="IsTypeOf(GCF_Models.Gallery)">
+        <MappingFragment StoreEntitySet="Galleries">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ImageBytes" ColumnName="ImageBytes" />
+          <ScalarProperty Name="Caption" ColumnName="Caption" />
+          <ScalarProperty Name="ObservationId" ColumnName="ObservationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Observations">
+      <EntityTypeMapping TypeName="IsTypeOf(GCF_Models.Observation)">
+        <MappingFragment StoreEntitySet="Observations">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Date_of_Observation" ColumnName="Date_of_Observation" />
+          <ScalarProperty Name="Sub_Species" ColumnName="Sub_Species" />
+          <ScalarProperty Name="No_of_Male" ColumnName="No_of_Male" />
+          <ScalarProperty Name="No_of_Female" ColumnName="No_of_Female" />
+          <ScalarProperty Name="Group_Size" ColumnName="Group_Size" />
+          <ScalarProperty Name="Date_of_Submission" ColumnName="Date_of_Submission" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="Game_ReserveLocations" TypeName="GCF_Models.Game_ReserveLocations" StoreEntitySet="Game_Reserve">
+      <EndProperty Name="Locations">
+        <ScalarProperty Name="Id" ColumnName="Location_Id" />
+      </EndProperty>
+      <EndProperty Name="Game_Reserve">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ObservationLocations" TypeName="GCF_Models.ObservationLocations" StoreEntitySet="Observations">
+      <EndProperty Name="Locations">
+        <ScalarProperty Name="Id" ColumnName="Location_Id" />
+      </EndProperty>
+      <EndProperty Name="Observation">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

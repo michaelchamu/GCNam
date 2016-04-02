@@ -1,0 +1,40 @@
+﻿@model IEnumerable<GiraffeSpotter.Models.Game_Reserve>
+@using GridMvc.Html
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="container">
+    <div class="col-md-6 col-md-offset-2 pull-left">
+        <div class="input-group">
+            @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-success btn-md glyphicon glyphicon-plus" })
+        </div>
+
+        <br />
+
+        @Html.Grid(Model).Columns(columns =>
+                    {
+                        columns.Add(c => c.Id)
+                            .Titled("Reserve Number")
+                            .Filterable(true)
+                            .Sanitized(false)
+                            .Encoded(false)
+                            .RenderValueAs(o => Html.ActionLink(o.Id.ToString(), "Edit", "Reserve", new { id = o.Id }, new { @class = "btn btn-safari btn-sm" }).ToHtmlString());
+                        columns.Add(c => c.Name)
+                            .Titled("Reserve Name")
+                            .Filterable(true);
+                        columns.Add(c => c.Region)
+                            .Titled("Region")
+                            .Filterable(true);
+                        columns.Add(c => c.Type)
+                            .Titled("Reserve Type")
+                            .Filterable(true);
+                        columns.Add()
+                            .Sanitized(false)
+                            .Encoded(false)
+                            .RenderValueAs(o => Html.ActionLink("Details", "Details", "Reserve", new { id = o.Id }, new { @class = "btn btn-sm btn-safari" }).ToHtmlString());
+                    }).WithPaging(10).Sortable(true)
+    </div>
+</div>

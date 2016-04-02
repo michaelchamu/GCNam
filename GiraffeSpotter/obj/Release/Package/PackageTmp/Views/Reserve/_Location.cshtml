@@ -1,0 +1,43 @@
+﻿@model GiraffeSpotter.Models.Locations
+
+<script src="~/Scripts/jquery-1.8.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+@using (Html.BeginForm("Location", "Reserve", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-gold" style="border-color: #636363;">
+                <div class="panel-heading">
+                    <h2 align="center">Reserve Reservation </h2>
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Latitude &nbsp &nbsp</strong></span>
+                            @Html.TextBoxFor(model => model.Latitude, null, new { @class = "form-control" })
+                        </div>
+                        <strong>
+                            <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Latitude)</p>
+                        </strong>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Longitude</strong></span>
+                            @Html.TextBoxFor(model => model.Longitude, null, new { @class = "form-control" })
+                        </div>
+                        <strong>
+                            <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Longitude)</p>
+                        </strong>
+                    </div>
+                    <input type="submit" value="Finish" class="btn btn-safari btn-lg btn-block">
+                </div>
+            </div>
+        </div>
+    </div>
+}

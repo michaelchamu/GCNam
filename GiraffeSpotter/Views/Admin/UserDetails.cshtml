@@ -1,0 +1,55 @@
+﻿@model GiraffeSpotter.Models.UserProfile
+<div class="col-md-5 col-md-offset-3">
+<fieldset>
+    <center>
+            <legend>User profile</legend>
+
+    <div class="display-label">
+         <h4><b>User name</b></h4>
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UserName)
+    </div>
+
+    <div class="display-label">
+           <h4><b>First name</b></h4>
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Firstname)
+    </div>
+
+    <div class="display-label">
+           <h4><b>Surname</b></h4>
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Lastname)
+    </div>
+
+    <div class="display-label">
+          <h4><b>Email address</b></h4>
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Email)
+    </div>
+
+    <div class="display-label">
+           <h4><b>Nationality</b></h4>
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nationality)
+    </div>
+
+    <div class="display-label">
+           <h4><b>Account type</b></h4>
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Role)
+    </div>
+</center>
+
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.UserId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+</div>

@@ -1,0 +1,70 @@
+﻿@{
+    ViewBag.Title = "Masai";
+}
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-sm-offset-2 col-md-offset-1">
+
+        <div class="panel panel-gold" style="border-color: #636363;">
+            <div class="panel-heading" align="center">
+                <h2>Masai giraffe</h2>
+            </div>
+            <div class="panel-body" style="padding: 0px;">
+                <div class="col-md-7 col-md-offset-2 col-xs-12 col-sm-6" style="padding: 0px;">
+                    <br />
+                    <img src="~/Images/Individuals/Masai.jpg" /><br />
+                    <br />
+                </div>
+                <div class="col-md-8 col-xs-12 col-sm-12 col-md-offset-2" style="padding: 0px;">
+                    <div class="well well-lg" style="text-align: justify; text-justify: inter-word; padding-top: 5px; padding-bottom: 5px; border-color: #636363;">
+                        <h3 style="text-align: center"><strong>Subspecies: &nbsp </strong><i>G. c. tippelskirchi</i></h3>
+                        <p>
+                            The Masai giraffe ranges across central and southern Kenya and south through Tanzania, and extralimital populations have been translocated into Rwanda. 
+                            This is the most populous of the subspecies, numbering an estimated 37,000 in the wild. 
+                            However, recent reports of poaching would suggest that its population is likely decreasing.
+                        </p>
+                        <h3 style="text-align: center"><strong>Zoo Count</strong></h3>
+                        <p>
+                            International Species Information System (ISIS) records indicate roughly 100 individuals in zoos.
+                        </p>
+
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 col-xs-12 col-sm-6">
+        <div class="col-md-12" style="padding: 0px;">
+            <div class="well well-lg" style="text-align: justify; text-justify: inter-word; border-color: #636363;">
+                <h3 style="text-align: center"><strong>Appearance</strong></h3>
+                <p>
+                    <i>The Masai giraffe is often noticeably darker than other subspecies. 
+                            Its blotches are large, dark brown and distinctively vine leaf-shaped with jagged edges, and are separated by irregular creamy brown lines.
+                    </i>
+                </p>
+                <img src="~/Images/Individuals/Maps%20and%20patterns/Masai/tippelkirchi%20pattern.jpg"
+                    class="col-md-offset-1"
+                    height="255" width="275" /><br />
+                <br />
+                <h3 style="text-align: center"><strong>Distribution</strong></h3>
+                <div class="thumbnail">
+                    <img src="~/Images/Individuals/Maps%20and%20patterns/Masai/tippelskirchi%20map.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var currentPage = document.getElementById("li19");
+            currentPage.className = "active";
+        });
+    </script>
+}

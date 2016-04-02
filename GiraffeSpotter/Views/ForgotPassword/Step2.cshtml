@@ -1,0 +1,45 @@
+﻿@model GiraffeSpotter.Models.ViewModels.NewPassword
+
+<div class=" col-md-4">
+    <div class="panel panel-gold" style="border-color: #636363;">
+        <div class="panel-heading">
+            <h2><strong></strong><center>ENTER NEW DETAILS</center></h2>
+        </div>
+        <div class="panel-body">
+            @{
+                if (ViewBag.Code == 2)
+                {
+                    <div class="alert alert-success"> @ViewBag.Message </div>
+                }
+                else if (ViewBag.Code == 3)
+                {
+                    <div class="alert alert-danger"> @ViewBag.Message </div>
+                }                    
+            }
+
+            @using (Html.BeginForm("ChangeP", "ForgotPassword", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+    
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon"><strong>New Password &nbsp &nbsp &nbsp</strong></span>
+                        @Html.PasswordFor(model => model.Password, new { @class = "form-control"})
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-eye-close"></span></span>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon"><strong>Code &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</strong></span>
+                        @Html.TextBoxFor(model => model.ReturnToken, null, new { @class = "form-control"})
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                    </div>
+                </div>
+                    
+                <input type="submit" value="RESET PASSWORD" class="btn btn-safari btn-lg btn-block">
+            }
+        </div>
+    </div>
+</div>

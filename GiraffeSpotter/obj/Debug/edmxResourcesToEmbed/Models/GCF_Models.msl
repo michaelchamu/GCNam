@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GCF_ModelsStoreContainer" CdmEntityContainer="GCF_ModelsContainer">
+    <EntitySetMapping Name="Profile_Pictures">
+      <EntityTypeMapping TypeName="IsTypeOf(GCF_Models.Profile_Pictures)">
+        <MappingFragment StoreEntitySet="Profile_Pictures">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ImageByte" ColumnName="ImageByte" />
+          <ScalarProperty Name="Extension" ColumnName="Extension" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Game_Reserve">
+      <EntityTypeMapping TypeName="IsTypeOf(GCF_Models.Game_Reserve)">
+        <MappingFragment StoreEntitySet="Game_Reserve">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Giraffes">
+      <EntityTypeMapping TypeName="IsTypeOf(GCF_Models.Giraffe)">
+        <MappingFragment StoreEntitySet="Giraffes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Date_of_Recieval" ColumnName="Date_of_Recieval" />
+          <ScalarProperty Name="Sub_Species" ColumnName="Sub_Species" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Place_of_Origin" ColumnName="Place_of_Origin" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Game_ReserveId" ColumnName="Game_ReserveId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locations">
+      <EntityTypeMapping TypeName="IsTypeOf(GCF_Models.Locations)">
+        <MappingFragment StoreEntitySet="Locations">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Galleries">
+      <EntityTypeMapping TypeName="IsTypeOf(GCF_Models.Gallery)">
+        <MappingFragment StoreEntitySet="Galleries">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ImageBytes" ColumnName="ImageBytes" />
+          <ScalarProperty Name="Caption" ColumnName="Caption" />
+          <ScalarProperty Name="ObservationId" ColumnName="ObservationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Observations">
+      <EntityTypeMapping TypeName="IsTypeOf(GCF_Models.Observation)">
+        <MappingFragment StoreEntitySet="Observations">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Date_of_Observation" ColumnName="Date_of_Observation" />
+          <ScalarProperty Name="Sub_Species" ColumnName="Sub_Species" />
+          <ScalarProperty Name="No_of_Male" ColumnName="No_of_Male" />
+          <ScalarProperty Name="No_of_Female" ColumnName="No_of_Female" />
+          <ScalarProperty Name="Group_Size" ColumnName="Group_Size" />
+          <ScalarProperty Name="Date_of_Submission" ColumnName="Date_of_Submission" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="Game_ReserveLocations" TypeName="GCF_Models.Game_ReserveLocations" StoreEntitySet="Game_Reserve">
+      <EndProperty Name="Locations">
+        <ScalarProperty Name="Id" ColumnName="Location_Id" />
+      </EndProperty>
+      <EndProperty Name="Game_Reserve">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ObservationLocations" TypeName="GCF_Models.ObservationLocations" StoreEntitySet="Observations">
+      <EndProperty Name="Locations">
+        <ScalarProperty Name="Id" ColumnName="Location_Id" />
+      </EndProperty>
+      <EndProperty Name="Observation">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

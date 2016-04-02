@@ -1,0 +1,80 @@
+﻿@{
+    ViewBag.Title = "SouthAfrican";
+}
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-sm-offset-2 col-md-offset-1">
+
+        <div class="panel panel-gold" style="border-color: #636363;">
+            <div class="panel-heading" align="center">
+                <h2>South African giraffe</h2>
+            </div>
+            <div class="panel-body" style="padding: 0px;">
+                <div class="col-md-7 col-md-offset-2 col-xs-12 col-sm-6" style="padding: 0px;">
+                    <br />
+                    <img src="~/Images/Individuals/SouthAfrican.jpg" /><br />
+                    <br />
+                </div>
+                <div class="col-md-8 col-xs-12 col-sm-12 col-md-offset-2" style="padding: 0px;">
+                    <div class="well well-lg" style="text-align: justify; text-justify: inter-word; padding-top: 5px; padding-bottom: 5px; border-color: #636363;">
+                        <h3 style="text-align: center"><strong>Subspecies:&nbsp </strong><i>G. c. giraffa</i></h3>
+
+                        The South African or Cape giraffe ranges from west to east across northern South Africa, 
+                            southern Botswana, northern Botswana and southern Zimbabwe, and there are efforts under way to reintroduce it into Mozambique.
+                        
+                        <p>
+                            Previous reintroductions of this subspecies and the Angolan giraffe into northern South Africa, 
+                            southern Botswana and southern Zimbabwe are likely to have resulted in hybrid populations in those areas. 
+                            There have also been extralimital introductions of the South African giraffe into Zambia, Angola and Senegal.
+                            There are fewer than 12,000 South African giraffe left in the wild.
+                        </p>
+                        <h3 style="text-align: center"><strong>Zoo Count</strong></h3>
+
+                        According to International Species Information System (ISIS), only about 45 in zoos around the world. 
+                        
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-md-4 col-xs-12 col-sm-6">
+        <div class="col-md-12" style="padding: 0px;">
+            <div class="well well-lg" style="text-align: justify; text-justify: inter-word; border-color: #636363;">
+                <h3 style="text-align: center"><strong>Appearance</strong></h3>
+
+                <i>The South African giraffe’s pattern extends all the way down the legs and is made up 
+                            of star-shaped blotches on a background that is more tan-coloured than cream or white. </i>
+                <br />
+                <br />
+                <img src="~/Images/Individuals/Maps%20and%20patterns/South%20african/giraffa%20pattern.jpg" class="col-md-offset-1"
+                    height="255" width="275" /><br />
+                <br />
+                <h3 style="text-align: center"><strong>Distribution</strong></h3>
+                <div class="thumbnail">
+                    <img src="~/Images/Individuals/Maps%20and%20patterns/South%20african/giraffa%20map.jpg" />
+
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var currentPage = document.getElementById("li14");
+            currentPage.className = "active";
+        });
+    </script>
+}

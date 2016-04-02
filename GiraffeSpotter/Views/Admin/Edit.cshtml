@@ -1,0 +1,84 @@
+﻿@model GiraffeSpotter.Models.UserProfile
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+   <div class="col-md-5 col-md-offset-3">
+    <fieldset>
+        <legend>Change user account type</legend>
+
+        @Html.HiddenFor(model => model.UserId)
+
+        <div class="editor-label">
+            <strong><h4><b>User name</b></h4></strong>
+        </div>
+        <div class="editor-field">
+            @Html.HiddenFor(model => model.UserName, new { @class = "form-control input-md" })
+           @Html.DisplayFor(model => model.UserName, new { @class = "form-control input-md" })
+        </div>
+
+        <div class="editor-label">
+           <strong><h4><b>First name</b></h4></strong>
+        </div>
+        <div class="editor-field">
+            @Html.HiddenFor(model => model.Firstname, new { @class = "form-control input-md" })
+             @Html.DisplayFor(model => model.Firstname, new { @class = "form-control input-md" })
+        </div>
+
+        <div class="editor-label">
+            <strong><h4><b>Surname</b></h4></strong>
+        </div>
+        <div class="editor-field">
+            @Html.HiddenFor(model => model.Lastname, new { @class = "form-control input-md" })
+            @Html.DisplayFor(model => model.Lastname, new { @class = "form-control input-md" })
+        </div>
+
+        <div class="editor-label">
+            <strong><h4><b>Email address</b></h4></strong>
+        </div>
+        <div class="editor-field">
+            @Html.HiddenFor(model => model.Email, new { @class = "form-control input-md" })
+            @Html.DisplayFor(model => model.Email, new { @class = "form-control input-md" })
+        </div>
+
+        <div class="editor-label">
+             <strong><h4><b>Nationality</b></h4></strong>
+        </div>
+        <div class="editor-field">
+            @Html.HiddenFor(model => model.nationality, new { @class = "form-control input-md" })
+            @Html.DisplayFor(model => model.nationality, new { @class = "form-control input-md" })
+        </div>
+
+        <div class="editor-label">
+             <strong><h4><b>Account type</b></h4></strong>
+        </div>
+        <div class="editor-field">
+            @Html.DropDownListFor(model => model.Role, new SelectList(new List<Object> { new{value="Citizen Scientist", text="Citizen Scientist"},
+                                                                                   new{value="Game Farmer",text="Game Farmer"},
+                                                                                   new{value="Moderator",text="Moderator"}}, "value", "text", 2), new { @class = "form-control input-md" })
+           <strong>@Html.ValidationMessageFor(model => model.Role)</strong>
+        </div>
+        
+        <p>
+           <input type="submit" value="Save" class="btn btn-safari btn-lg btn-block">
+            <br />
+            <a href="~/Admin/AllUsers"  class = "btn btn-danger btn-lg btn-block">Cancel</a>
+        </p>
+    </fieldset>
+       <div>
+   
+</div>
+       </div>
+    
+}
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

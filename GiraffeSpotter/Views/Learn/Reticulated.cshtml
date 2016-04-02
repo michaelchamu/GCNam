@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "Reticulated";
+}
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-sm-offset-2 col-md-offset-1">
+        <div class="panel panel-gold" style="border-color: #636363;">
+            <div class="panel-heading" align="center">
+                <h2>Reticulated giraffe</h2>
+            </div>
+            <div class="panel-body" style="padding: 0px;">
+                <div class="col-md-7 col-md-offset-2 col-xs-12 col-sm-6" style="padding: 0px;">
+                    <br />
+                    <img src="~/Images/Individuals/Reticulated.jpg" /><br />
+                    <br />
+                </div>
+                <div class="col-md-8 col-xs-12 col-sm-12 col-md-offset-2" style="padding: 0px;">
+                    <div class="well well-lg" style="text-align: justify; text-justify: inter-word; padding-top: 5px; padding-bottom: 5px; border-color: #636363;">
+                        <h3 style="text-align: center"><strong>Subspecies:&nbsp </strong><i>G. c. reticulata</i></h3>
+
+                        Although sometimes also called the netted or Somali giraffe, this subspecies is better known as the reticulated giraffe. 
+                            It is now found predominantly in north-eastern Kenya, but there are also small populations in southern Somalia and southern Ethiopia. 
+                            It has been estimated that about 4,700 individuals remain in the wild (down from an approximate 28,000 as recently as 1998). 
+                            The subspecies’ numbers (and ranges) in Somalia and Ethiopia have yet to be quantified, but are assumed to be low.
+                       
+                        <h3 style="text-align: center"><strong>Zoo Count</strong></h3>
+
+                        International Species Information System (ISIS) records indicate that the reticulated giraffe 
+                            is one of the more common subspecies in captivity, with about 450 kept in zoos around the world.
+                        
+                 
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 col-xs-12 col-sm-6">
+        <div class="col-md-12" style="padding: 0px;">
+            <div class="well well-lg" style="text-align: justify; text-justify: inter-word; border-color: #636363;">
+                <h3 style="text-align: center"><strong>Appearance</strong></h3>
+
+                <i>It is easy to see why this subspecies is called the reticulated giraffe, 
+                            with its brown-orange patches clearly defined by a network of thick and striking white lines. 
+                </i>
+                <br />
+                <br />
+                <img src="~/Images/Individuals/Maps%20and%20patterns/Reticulated/reticulata%20pattern.jpg" class="col-md-offset-1"
+                    height="255" width="275" /><br />
+                <br />
+                <h3 style="text-align: center"><strong>Distribution</strong></h3>
+                <div class="thumbnail">
+                    <img src="~/Images/Individuals/Maps%20and%20patterns/Reticulated/reticulata%20map.jpg" />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var currentPage = document.getElementById("li16");
+            currentPage.className = "active";
+        });
+    </script>
+}

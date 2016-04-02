@@ -1,0 +1,57 @@
+﻿@model GiraffeSpotter.Models.Observation
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Observation</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Date_of_Observation)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Date_of_Observation)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Sub_Species)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Sub_Species)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.No_of_Male)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.No_of_Male)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.No_of_Female)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.No_of_Female)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Group_Size)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Group_Size)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Date_of_Submission)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Date_of_Submission)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

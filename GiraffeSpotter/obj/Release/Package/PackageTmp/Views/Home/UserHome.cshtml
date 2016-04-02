@@ -1,0 +1,86 @@
+﻿@model GiraffeSpotter.Models.ViewModels.ViewUser
+@using GiraffeSpotter.Models.Service;
+
+@{
+    RenderImage render = new RenderImage();
+    var bytes = render.GetImageBytes(@User.Identity.Name);
+    
+}
+
+<div class="col-md-5 col-md-offset-4">
+   
+    @{if (bytes != null)
+      {
+          
+        <div class="panel panel-gold" align="center" style="border-color: #636363;">
+            <div class="panel-heading">
+                <h3>User profile</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="data:image/jpg;base64,@(Html.Raw(Convert.ToBase64String(bytes)))" alt="Profile Picture" class="col-md-12 col-xs-4 col-sm-4"/>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h5><b>
+                            @Html.DisplayFor(model => model.userDetails.UserName)
+                            <br />
+                            <br />
+                            @Html.DisplayFor(model => model.userDetails.Role)
+                            <br />
+                            <br />
+                            Member since @Html.DisplayFor(model => model.regDate)
+                            <br />
+                            <br />
+                            @Html.DisplayFor(model => model.observationCount) Observation(s) made
+                           
+                        </b></h5>
+
+                        <a class="btn btn-safari btn-md btn-block" href="~/Observation/CreateLandingPage">Upload observation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+
+     }
+      else
+      {
+        
+            <div class="panel panel-gold" align="center" style="border-color: #636363;">
+                <div class="panel-heading">
+                    <h3>User profile</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="~/Images/resized_fb-giraffe.jpg" class="col-md-12 col-xs-4 col-sm-4" />
+                        </div>
+                        <div class="col-md-6">
+                           <h5><b>
+                               @Html.DisplayFor(model => model.userDetails.UserName)
+                            <br />
+                     
+                            @Html.DisplayFor(model => model.userDetails.Role)
+                            <br />
+                               
+                               Member since @Html.DisplayFor(model => model.regDate)    
+                       <br />
+                            @Html.DisplayFor(model => model.observationCount) Observation(s) made
+                           
+                           </b></h5>
+                             <a class="btn btn-safari btn-md btn-block" href="~/Observation/CreateLandingPage">Upload observation</a>
+                         
+                        </div>
+                            
+                    </div>
+                </div>
+            </div>
+
+
+            }
+    }
+   
+        </div>
+

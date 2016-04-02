@@ -1,0 +1,76 @@
+﻿@{
+    ViewBag.Title = "Kordan";
+}
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-sm-offset-2 col-md-offset-1">
+
+        <div class="panel panel-gold" style="border-color: #636363;">
+            <div class="panel-heading" align="center">
+                <h2>Kordofan giraffe</h2>
+            </div>
+            <div class="panel-body" style="padding: 0px;">
+                <div class="col-md-7 col-md-offset-2 col-xs-12 col-sm-6" style="padding: 0px;">
+                    <br />
+                    <img src="~/Images/Individuals/Kordofan.jpg" /><br />
+                    <br />
+                </div>
+                <div class="col-md-8 col-xs-12 col-sm-12 col-md-offset-2" style="padding: 0px;">
+                    <div class="well well-lg" style="text-align: justify; text-justify: inter-word; padding-top: 5px; padding-bottom: 5px; border-color: #636363;">
+                        <h3 style="text-align: center"><strong>Subspecies:</strong><i>&nbsp G. c. antiquorum</i></h3>
+                        <p>
+                            The Kordofan giraffe’s range includes some of Africa’s more hostile areas: southern Chad, Central African Republic, northern Cameroon and northern Democratic Republic of Congo. 
+                            It is estimated that fewer than 1,900 individuals survive in these war-ravaged countries. 
+                            Most of these populations were formerly assumed to be <i>G. c. peralta</i>, but recent research has proved this to be incorrect. Similarly, 
+                            giraffe in zoos across Europe that were thought to be <i>G. c. peralta</i> have been reclassified as <i>G. c. antiquorum</i> following recent genetic studies.
+                        </p>
+                        <h3 style="text-align: center"><strong>Zoo Count</strong></h3>
+                        <p>
+                            International Species Information System (ISIS) records show that approximately 65 Kordofan giraffe are in zoos worldwide.
+                        </p>
+                        <br />
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 col-xs-12 col-sm-6">
+        <div class="col-md-12" style="padding: 0px;">
+            <div class="well well-lg" style="text-align: justify; text-justify: inter-word; border-color: #636363;">
+                <h3 style="text-align: center"><strong>Appearance</strong></h3>
+                <p>
+                    <i>The Kordofan giraffe’s spots are pale and irregular and cover the upper leg.</i>
+                </p>
+                <br />
+                <br />
+                <img src="~/Images/Individuals/Maps%20and%20patterns/Kordofan/antiquorum.jpg" class="col-md-offset-1"
+                    height="255" width="275" /><br />
+                <br />
+                <h3 style="text-align: center"><strong>Distribution</strong></h3>
+                <div class="thumbnail">
+                    <img src="~/Images/Individuals/Maps%20and%20patterns/Kordofan/antiquorum%20map.jpg" />
+
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var currentPage = document.getElementById("li12");
+            currentPage.className = "active";
+        });
+    </script>
+}

@@ -1,0 +1,66 @@
+﻿@model GiraffeSpotter.Models.Game_Reserve
+
+@using (Ajax.BeginForm("Create", "Reserve", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "result1" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-gold" style="border-color: #636363;">
+                <div class="panel-heading">
+                    <h2 align="center">Reserve Reservation </h2>
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Reservation Name &nbsp &nbsp</strong></span>
+                            @Html.TextBoxFor(model => model.Name, null, new { @class = "form-control" })
+                        </div>
+                        <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Name)</p>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Reservation Type &nbsp &nbsp &nbsp</strong></span>
+                            @Html.TextBoxFor(model => model.Type, null, new { @class = "form-control" })
+                        </div>
+                        <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Type)</p>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Reserve Category &nbsp &nbsp &nbsp</strong></span>
+                            @Html.TextBoxFor(model => model.Category, null, new { @class = "form-control" })
+                        </div>
+                        <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Category)</p>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Reservation Country</strong></span>
+                            @Html.TextBoxFor(model => model.Country, null, new { @class = "form-control" })
+                        </div>
+                        <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Country)</p>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><strong>Reservation Region &nbsp</strong></span>
+                            @Html.TextBoxFor(model => model.Region, null, new { @class = "form-control" })
+                        </div>
+                        <p align="center" class="alert-danger">@Html.ValidationMessageFor(model => model.Region)</p>
+                    </div>
+                    <input type="submit" value="Next Step" class="btn btn-safari btn-lg btn-block">
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div id="result1">
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
