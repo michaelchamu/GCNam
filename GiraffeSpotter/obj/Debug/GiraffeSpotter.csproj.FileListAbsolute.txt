@@ -693,6 +693,5 @@ C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\Gi
 C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\ru\System.Spatial.resources.dll
 C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\obj\Debug\GiraffeSpotter.csprojResolveAssemblyReference.cache
 C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\obj\Debug\GiraffeSpotter.dll
 C:\Users\MaddMike\Documents\WORK\GCF\Functional GiraffeSpotter\GiraffeSpotter\GiraffeSpotter\obj\Debug\GiraffeSpotter.pdb
